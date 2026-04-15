@@ -1,46 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 ThemeData buildAppTheme() {
   final base = ThemeData.light(useMaterial3: true);
+  final headline = GoogleFonts.spaceGroteskTextTheme(base.textTheme);
+  final body = GoogleFonts.manropeTextTheme(base.textTheme);
 
   final textTheme = base.textTheme.copyWith(
-    displayLarge: base.textTheme.displayLarge?.copyWith(
-      fontFamily: 'Space Grotesk',
-      fontWeight: FontWeight.w900,
-      color: AppColors.onSurface,
+    displayLarge: headline.displayLarge?.copyWith(
+      fontWeight: FontWeight.w900, color: AppColors.onSurface,
       letterSpacing: -2,
     ),
-    displayMedium: base.textTheme.displayMedium?.copyWith(
-      fontFamily: 'Space Grotesk',
-      fontWeight: FontWeight.w900,
-      color: AppColors.onSurface,
+    displayMedium: headline.displayMedium?.copyWith(
+      fontWeight: FontWeight.w900, color: AppColors.onSurface,
     ),
-    headlineLarge: base.textTheme.headlineLarge?.copyWith(
-      fontFamily: 'Space Grotesk',
-      fontWeight: FontWeight.w800,
-      color: AppColors.onSurface,
+    headlineLarge: headline.headlineLarge?.copyWith(
+      fontWeight: FontWeight.w800, color: AppColors.onSurface,
     ),
-    headlineMedium: base.textTheme.headlineMedium?.copyWith(
-      fontFamily: 'Space Grotesk',
-      fontWeight: FontWeight.w700,
-      color: AppColors.onSurface,
+    headlineMedium: headline.headlineMedium?.copyWith(
+      fontWeight: FontWeight.w700, color: AppColors.onSurface,
     ),
-    titleLarge: base.textTheme.titleLarge?.copyWith(
-      fontFamily: 'Space Grotesk',
-      fontWeight: FontWeight.w700,
-      color: AppColors.onSurface,
+    titleLarge: headline.titleLarge?.copyWith(
+      fontWeight: FontWeight.w700, color: AppColors.onSurface,
     ),
-    bodyLarge: base.textTheme.bodyLarge?.copyWith(
-      fontFamily: 'Manrope',
-      color: AppColors.onSurface,
-    ),
-    bodyMedium: base.textTheme.bodyMedium?.copyWith(
-      fontFamily: 'Manrope',
-      color: AppColors.onSurface,
-    ),
-    labelLarge: base.textTheme.labelLarge?.copyWith(
-      fontFamily: 'Space Grotesk',
+    bodyLarge: body.bodyLarge?.copyWith(color: AppColors.onSurface),
+    bodyMedium: body.bodyMedium?.copyWith(color: AppColors.onSurface),
+    labelLarge: GoogleFonts.spaceGrotesk(
       fontWeight: FontWeight.w700,
       letterSpacing: 1.2,
       color: AppColors.onSurface,
@@ -74,11 +60,8 @@ ThemeData buildAppTheme() {
         foregroundColor: AppColors.onPrimary,
         elevation: 0,
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 18),
-        textStyle: const TextStyle(
-          fontFamily: 'Space Grotesk',
-          fontWeight: FontWeight.w800,
-          fontSize: 16,
-          letterSpacing: 1.2,
+        textStyle: GoogleFonts.spaceGrotesk(
+          fontWeight: FontWeight.w800, fontSize: 16, letterSpacing: 1.2,
         ),
       ),
     ),
