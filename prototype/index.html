@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VULGUS — Daily 001</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "background": "#f9f9f9",
+        "on-surface": "#1b1b1b",
+        "surface": "#f9f9f9",
+        "surface-container": "#eeeeee",
+        "surface-container-low": "#f3f3f3",
+        "surface-container-high": "#e8e8e8",
+        "surface-container-highest": "#e2e2e2",
+        "surface-container-lowest": "#ffffff",
+        "on-surface-variant": "#5b403f",
+        "primary": "#b7102a",
+        "primary-container": "#db313f",
+        "on-primary": "#ffffff",
+        "secondary": "#785a00",
+        "secondary-container": "#ffd167",
+        "on-secondary-container": "#765900",
+        "tertiary": "#006482",
+        "tertiary-container": "#007ea4",
+        "on-tertiary": "#ffffff",
+        "inverse-surface": "#303030",
+        "inverse-on-surface": "#f1f1f1",
+        "outline": "#8f6f6e",
+        "error": "#ba1a1a",
+      },
+      borderRadius: { DEFAULT: "0px", lg: "0px", xl: "0px", full: "9999px" },
+      fontFamily: {
+        headline: ["Space Grotesk"],
+        body: ["Manrope"],
+        label: ["Space Grotesk"]
+      }
+    }
+  }
+};
+</script>
+<style>
+  body { font-family: 'Manrope', sans-serif; background-color: #f9f9f9; }
+  h1, h2, h3, .font-headline { font-family: 'Space Grotesk', sans-serif; }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block; line-height: 1;
+  }
+  body { min-height: max(884px, 100dvh); }
+
+  .tile {
+    user-select: none;
+    transition: transform 90ms ease, background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+  }
+  .tile:active:not(.locked) { transform: translate(2px, 2px); }
+
+  .tile.selected {
+    background-color: #303030;
+    color: #ffffff;
+    border-color: #000000;
+  }
+
+  @keyframes shake {
+    0%,100% { transform: translateX(0); }
+    20% { transform: translateX(-6px); }
+    40% { transform: translateX(6px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(4px); }
+  }
+  .shake { animation: shake 380ms ease; }
+
+  @keyframes riseIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .rise-in { animation: riseIn 120ms ease-out; }
+
+  .etym-strip {
+    min-height: 96px;
+  }
+</style>
+</head>
+<body class="bg-background text-on-surface min-h-screen flex flex-col overflow-x-hidden border-[12px] border-primary box-border">
+
+<!-- Top App Bar -->
+<header class="fixed top-0 left-3 right-3 border-b-2 border-black bg-[#f9f9f9] z-50 flex justify-between items-center px-6 h-20" style="top:12px;">
+  <div class="flex items-center gap-4">
+    <button class="p-2 hover:bg-[#e8e8e8] transition-colors duration-75 active:translate-x-0.5 active:translate-y-0.5" aria-label="Menu">
+      <span class="material-symbols-outlined text-black">grid_view</span>
+    </button>
+  </div>
+  <h1 class="text-3xl font-black text-primary tracking-tighter font-headline uppercase">VULGUS</h1>
+  <div class="flex items-center gap-4">
+    <button class="p-2 hover:bg-[#e8e8e8] transition-colors duration-75 active:translate-x-0.5 active:translate-y-0.5" aria-label="Help">
+      <span class="material-symbols-outlined text-black">help_outline</span>
+    </button>
+  </div>
+</header>
+
+<!-- Main -->
+<main class="flex-grow pt-28 pb-24 px-6 max-w-4xl mx-auto w-full">
+
+  <!-- Hero strip -->
+  <section class="flex justify-between items-end mb-8 border-b-2 border-on-surface pb-4">
+    <div>
+      <span class="font-label text-xs uppercase tracking-[0.3em] text-secondary font-bold block">Daily Puzzle</span>
+      <h2 class="font-headline text-5xl md:text-7xl font-black tracking-tighter leading-none uppercase">VULGUS<br/>001</h2>
+    </div>
+    <div class="text-right">
+      <p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Mistakes</p>
+      <div id="lives" class="flex gap-1 justify-end mt-1">
+        <div class="w-4 h-4 bg-on-surface"></div>
+        <div class="w-4 h-4 bg-on-surface"></div>
+        <div class="w-4 h-4 bg-on-surface"></div>
+        <div class="w-4 h-4 bg-on-surface"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solved group banners -->
+  <div id="solved" class="space-y-2 mb-4"></div>
+
+  <!-- The Grid -->
+  <div id="grid" class="grid grid-cols-4 gap-2 mb-2"></div>
+
+  <!-- Etymology Strip -->
+  <section aria-live="polite" class="etym-strip border-2 border-on-surface bg-surface-container-lowest p-4 md:p-5 mt-2">
+    <div id="etym-empty" class="h-full flex items-center justify-center text-center">
+      <p class="font-label text-xs uppercase tracking-widest text-on-surface-variant">
+        Tap a word to see where it comes from.
+      </p>
+    </div>
+    <div id="etym-filled" class="hidden">
+      <div class="flex items-baseline justify-between gap-4 mb-1">
+        <span id="etym-word" class="font-headline font-black uppercase text-2xl tracking-tight"></span>
+        <span id="etym-meta" class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant"></span>
+      </div>
+      <p id="etym-note" class="font-body text-sm leading-snug"></p>
+    </div>
+  </section>
+
+  <!-- Actions -->
+  <div class="grid grid-cols-3 gap-2 mt-4">
+    <button id="btn-shuffle" class="border-2 border-black bg-surface font-headline font-bold uppercase text-sm py-4 hover:bg-surface-container-high active:translate-x-0.5 active:translate-y-0.5 transition-all">Shuffle</button>
+    <button id="btn-deselect" class="border-2 border-black bg-surface font-headline font-bold uppercase text-sm py-4 hover:bg-surface-container-high active:translate-x-0.5 active:translate-y-0.5 transition-all">Deselect</button>
+    <button id="btn-submit" class="bg-on-surface text-surface font-headline font-black uppercase text-sm py-4 hover:bg-black active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-30 disabled:cursor-not-allowed" disabled>Submit</button>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed left-1/2 -translate-x-1/2 bottom-24 bg-on-surface text-surface px-4 py-2 font-label text-xs uppercase tracking-widest opacity-0 pointer-events-none transition-opacity duration-200 z-50"></div>
+
+  <!-- End-of-game modal -->
+  <div id="end" class="fixed inset-0 bg-black/60 z-50 hidden items-center justify-center p-6">
+    <div class="bg-surface-container-lowest border-2 border-black max-w-md w-full p-6">
+      <span class="font-label text-xs uppercase tracking-[0.3em] text-secondary font-bold block mb-2">Result</span>
+      <h3 id="end-title" class="font-headline text-4xl font-black uppercase leading-none mb-4">Nicely done.</h3>
+      <p id="end-body" class="font-body text-sm leading-relaxed mb-4">You sorted the sweary. Here's the share grid:</p>
+      <pre id="share-grid" class="font-mono text-lg leading-none bg-surface-container-high p-3 mb-4 whitespace-pre"></pre>
+      <div class="grid grid-cols-2 gap-2">
+        <button id="btn-share" class="bg-tertiary text-on-tertiary font-headline font-bold uppercase py-3 hover:bg-tertiary-container">Copy share</button>
+        <button id="btn-again" class="border-2 border-black bg-surface font-headline font-bold uppercase py-3 hover:bg-surface-container-high">Play again</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Bottom Nav -->
+<nav class="fixed bottom-3 left-3 right-3 h-16 z-50 flex justify-around items-stretch bg-[#f9f9f9] border-t-2 border-black">
+  <a class="flex flex-col items-center justify-center bg-tertiary text-on-tertiary p-2 flex-1 contrast-125" href="#">
+    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+    <span class="font-headline text-[10px] font-bold uppercase tracking-widest">Play</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-black p-2 flex-1 hover:bg-[#e2e2e2]" href="#">
+    <span class="material-symbols-outlined">leaderboard</span>
+    <span class="font-headline text-[10px] font-bold uppercase tracking-widest opacity-60">Stats</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-black p-2 flex-1 hover:bg-[#e2e2e2]" href="#">
+    <span class="material-symbols-outlined">history</span>
+    <span class="font-headline text-[10px] font-bold uppercase tracking-widest opacity-60">Archive</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-black p-2 flex-1 hover:bg-[#e2e2e2]" href="#">
+    <span class="material-symbols-outlined">menu_book</span>
+    <span class="font-headline text-[10px] font-bold uppercase tracking-widest opacity-60">Rules</span>
+  </a>
+</nav>
+
+<!-- Tailwind JIT safelist: ensure dynamic banner classes are compiled -->
+<div class="hidden bg-secondary-container text-on-secondary-container bg-tertiary text-on-tertiary bg-primary text-on-primary bg-on-surface text-surface"></div>
+
+<!-- Decorative Bauhaus shapes -->
+<div class="fixed top-24 -left-10 w-28 h-28 bg-primary opacity-5 -z-10 rotate-45"></div>
+<div class="fixed bottom-24 right-0 w-56 h-56 border-4 border-secondary opacity-20 -z-10 translate-x-1/3 translate-y-1/4"></div>
+<div class="fixed top-1/2 right-8 w-20 h-20 bg-tertiary rounded-full opacity-10 -z-10"></div>
+
+<script>
+// ---------------------------------------------------------------
+// Puzzle data — pulled from the VULGUS Dictionary
+// ---------------------------------------------------------------
+const PUZZLE = {
+  id: "VULGUS-001",
+  categories: [
+    {
+      id: "idiot",
+      name: "Words for Idiot",
+      difficulty: "Y",                 // Yellow — easy
+      bg: "secondary-container",
+      fg: "on-secondary-container",
+      words: ["NIMROD", "DOOFUS", "MUPPET", "WALLY"],
+    },
+    {
+      id: "soft",
+      name: "Soft Swears (G-rated)",
+      difficulty: "B",                 // Blue — medium
+      bg: "tertiary",
+      fg: "on-tertiary",
+      words: ["SUGAR", "FUDGE", "SHOOT", "CRIKEY"],
+    },
+    {
+      id: "british",
+      name: "British Swears",
+      difficulty: "R",                 // Red — hard
+      bg: "primary",
+      fg: "on-primary",
+      words: ["BOLLOCKS", "ARSE", "BUM", "BLIMEY"],
+    },
+    {
+      id: "nonsense",
+      name: "Words for Nonsense",
+      difficulty: "K",                 // Black — trickiest
+      bg: "on-surface",
+      fg: "surface",
+      words: ["TOSH", "CODSWALLOP", "POPPYCOCK", "BALDERDASH"],
+    }
+  ]
+};
+
+// Etymology notes keyed by word
+const ETYM = {
+  "NIMROD":     { meta: "eponymous · Bugs Bunny", note: "Biblical mighty hunter — inverted to mean \u2018fool\u2019 after Bugs Bunny sarcastically called Elmer Fudd a Nimrod." },
+  "DOOFUS":     { meta: "US · 1960s", note: "US college slang of uncertain origin; a harmless, lovable fool." },
+  "MUPPET":     { meta: "UK · 1980s", note: "From Jim Henson\u2019s Muppets; adopted as a gentle British insult meaning clueless person." },
+  "WALLY":      { meta: "UK · 1960s", note: "1960s British slang for a fool; possibly from the name Walter, or a cry heard at a 1965 festival." },
+  "SUGAR":      { meta: "global · 20th C", note: "Polite stand-in for a stronger s-word; popularised as a minced oath in the early 1900s." },
+  "FUDGE":      { meta: "global · 17th C", note: "Originally \u2018to fake or bungle\u2019; euphemism for the f-word by the 19th century." },
+  "SHOOT":      { meta: "US · 19th C", note: "American minced oath for a stronger s-word; in use since the mid-1800s." },
+  "CRIKEY":     { meta: "UK/AU · 19th C", note: "Minced oath for \u2018Christ\u2019; popular in Britain and Australia since the 1830s." },
+  "BOLLOCKS":   { meta: "UK · Old English", note: "From Old English beallucas (testicles); by the 1860s meant \u2018nonsense\u2019. Sex Pistols made it famous in 1977." },
+  "ARSE":       { meta: "UK · Old English", note: "From Old English \u00e6rs, cognate with German Arsch. Standard British form of American \u2018ass\u2019." },
+  "BUM":        { meta: "UK · 14th C", note: "Middle English, probably onomatopoeic. A mild British anatomical word, common in children\u2019s speech." },
+  "BLIMEY":     { meta: "UK · 19th C", note: "Contraction of \u2018God blind me!\u2019 \u2014 a minced oath used as an exclamation of surprise." },
+  "TOSH":       { meta: "UK · 19th C", note: "British slang for rubbish; origin disputed. Often paired with \u2018utter\u2019." },
+  "CODSWALLOP": { meta: "UK · 20th C", note: "Possibly from Hiram Codd\u2019s 1872 bottle plus \u2018wallop\u2019 (beer) \u2014 worthless fizzy water, hence nonsense." },
+  "POPPYCOCK":  { meta: "US · 19th C", note: "From Dutch pappekak \u2014 \u2018soft dung\u2019. Sounds polite; originally was anything but." },
+  "BALDERDASH": { meta: "16th C", note: "Originally a 16th-century frothy drink mix; by the 1670s it meant senseless talk." }
+};
+
+// ---------------------------------------------------------------
+// Game state
+// ---------------------------------------------------------------
+const state = {
+  tiles: [],                  // {word, categoryId, el, selected, locked}
+  selected: [],
+  lastTapped: null,
+  mistakes: 0,
+  solved: [],                 // categoryIds
+  over: false,
+  guesses: [],                // for share grid: array of arrays of categoryIds per guess
+};
+
+const $ = (sel) => document.querySelector(sel);
+const grid = $("#grid");
+const solvedEl = $("#solved");
+const livesEl = $("#lives");
+const btnShuffle = $("#btn-shuffle");
+const btnDeselect = $("#btn-deselect");
+const btnSubmit = $("#btn-submit");
+const toast = $("#toast");
+const endModal = $("#end");
+const endTitle = $("#end-title");
+const endBody = $("#end-body");
+const shareGrid = $("#share-grid");
+
+function showToast(msg) {
+  toast.textContent = msg;
+  toast.style.opacity = "1";
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => { toast.style.opacity = "0"; }, 1500);
+}
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function buildTiles() {
+  const all = [];
+  PUZZLE.categories.forEach(cat => {
+    cat.words.forEach(w => all.push({ word: w, categoryId: cat.id }));
+  });
+  shuffle(all);
+  state.tiles = all.map(t => ({ ...t, selected: false, locked: false, el: null }));
+}
+
+function renderGrid() {
+  grid.innerHTML = "";
+  state.tiles.forEach((t, idx) => {
+    if (t.locked) return; // locked tiles live in solved banners
+    const btn = document.createElement("button");
+    btn.className = "tile aspect-square border-2 border-black bg-surface-container-high font-headline font-black uppercase text-base md:text-xl flex items-center justify-center text-center px-1 leading-tight";
+    btn.textContent = t.word;
+    btn.dataset.idx = idx;
+    if (t.selected) btn.classList.add("selected");
+    btn.addEventListener("click", () => onTileClick(idx));
+    t.el = btn;
+    grid.appendChild(btn);
+  });
+
+  // Ensure the grid is always 4 columns tall even as things lock
+  const activeCount = state.tiles.filter(t => !t.locked).length;
+  const rows = Math.ceil(activeCount / 4);
+  grid.style.gridTemplateRows = `repeat(${rows}, minmax(0, 1fr))`;
+}
+
+function onTileClick(idx) {
+  if (state.over) return;
+  const t = state.tiles[idx];
+  if (t.locked) return;
+
+  if (t.selected) {
+    t.selected = false;
+    state.selected = state.selected.filter(i => i !== idx);
+    t.el.classList.remove("selected");
+    // last tapped => whatever is still selected most recently
+    state.lastTapped = state.selected.length ? state.selected[state.selected.length - 1] : null;
+  } else {
+    if (state.selected.length >= 4) {
+      showToast("Four selected — submit or deselect one.");
+      return;
+    }
+    t.selected = true;
+    state.selected.push(idx);
+    t.el.classList.add("selected");
+    state.lastTapped = idx;
+  }
+  updateEtym();
+  updateSubmit();
+}
+
+function updateEtym() {
+  const empty = $("#etym-empty");
+  const filled = $("#etym-filled");
+  if (state.lastTapped == null) {
+    empty.classList.remove("hidden");
+    filled.classList.add("hidden");
+    return;
+  }
+  const w = state.tiles[state.lastTapped].word;
+  const ety = ETYM[w] || { meta: "", note: "(etymology pending)" };
+  $("#etym-word").textContent = w;
+  $("#etym-meta").textContent = ety.meta;
+  $("#etym-note").textContent = ety.note;
+  empty.classList.add("hidden");
+  filled.classList.remove("hidden");
+  filled.classList.remove("rise-in");
+  // retrigger animation
+  void filled.offsetWidth;
+  filled.classList.add("rise-in");
+}
+
+function updateSubmit() {
+  btnSubmit.disabled = state.selected.length !== 4 || state.over;
+}
+
+function updateLives() {
+  const max = 4;
+  livesEl.innerHTML = "";
+  for (let i = 0; i < max; i++) {
+    const sq = document.createElement("div");
+    sq.className = "w-4 h-4 " + (i < max - state.mistakes ? "bg-on-surface" : "border-2 border-on-surface");
+    livesEl.appendChild(sq);
+  }
+}
+
+function onSubmit() {
+  if (state.selected.length !== 4 || state.over) return;
+  const catIds = state.selected.map(i => state.tiles[i].categoryId);
+  state.guesses.push([...catIds]);
+  const unique = [...new Set(catIds)];
+
+  if (unique.length === 1) {
+    // Correct
+    const cat = PUZZLE.categories.find(c => c.id === unique[0]);
+    lockCategory(cat);
+    state.solved.push(cat.id);
+    state.selected = [];
+    state.lastTapped = null;
+    updateEtym();
+    updateSubmit();
+    if (state.solved.length === 4) {
+      finish(true);
+    } else {
+      showToast("Got it.");
+    }
+  } else {
+    // Wrong
+    state.mistakes += 1;
+    updateLives();
+    // One-away?
+    const counts = {};
+    catIds.forEach(id => counts[id] = (counts[id] || 0) + 1);
+    const oneAway = Object.values(counts).includes(3);
+    // shake selected tiles
+    state.selected.forEach(i => {
+      const el = state.tiles[i].el;
+      if (!el) return;
+      el.classList.remove("shake");
+      void el.offsetWidth;
+      el.classList.add("shake");
+    });
+    if (oneAway) showToast("One away.");
+    else showToast("Not quite.");
+    // deselect
+    state.selected.forEach(i => {
+      state.tiles[i].selected = false;
+      state.tiles[i].el && state.tiles[i].el.classList.remove("selected");
+    });
+    state.selected = [];
+    state.lastTapped = null;
+    updateEtym();
+    updateSubmit();
+    if (state.mistakes >= 4) finish(false);
+  }
+}
+
+function lockCategory(cat) {
+  // Remove the four tiles from the active pool
+  state.tiles.forEach(t => { if (t.categoryId === cat.id) t.locked = true; });
+
+  // Render the banner
+  const banner = document.createElement("div");
+  banner.className = `border-2 border-black bg-${cat.bg} text-${cat.fg} p-4`;
+  banner.innerHTML = `
+    <div class="flex items-baseline justify-between gap-4">
+      <span class="font-headline font-black uppercase text-lg md:text-xl tracking-tight">${cat.name}</span>
+      <span class="font-label text-[10px] uppercase tracking-widest opacity-80">${difficultyLabel(cat.difficulty)}</span>
+    </div>
+    <p class="font-body text-sm mt-1 tracking-wide">${cat.words.join(" · ")}</p>
+  `;
+  solvedEl.appendChild(banner);
+  renderGrid();
+}
+
+function difficultyLabel(d) {
+  return { Y: "Easy", B: "Medium", R: "Hard", K: "Trickiest" }[d] || "";
+}
+
+function finish(won) {
+  state.over = true;
+  btnSubmit.disabled = true;
+  // Auto-reveal any remaining categories (lose state)
+  if (!won) {
+    PUZZLE.categories.filter(c => !state.solved.includes(c.id)).forEach(lockCategory);
+  }
+  endTitle.textContent = won ? "Sorted the sweary." : "Try tomorrow.";
+  endBody.textContent = won
+    ? `Done in ${state.guesses.length} guesses, ${state.mistakes} mistake${state.mistakes === 1 ? "" : "s"}.`
+    : `Ran out of lives after ${state.guesses.length} guesses.`;
+  shareGrid.textContent = buildShareGrid();
+  endModal.classList.remove("hidden");
+  endModal.classList.add("flex");
+}
+
+function buildShareGrid() {
+  const symbol = { idiot: "\u25A0", soft: "\u25CF", british: "\u25B2", nonsense: "\u25C6" };
+  // Bauhaus share grid — shape per category, one row per guess
+  return state.guesses.map(row => row.map(id => symbol[id] || "\u25A1").join(" ")).join("\n");
+}
+
+// ---------------------------------------------------------------
+// Event wiring
+// ---------------------------------------------------------------
+btnShuffle.addEventListener("click", () => {
+  if (state.over) return;
+  const active = state.tiles.filter(t => !t.locked);
+  shuffle(active);
+  // Rewrite tiles[] preserving locked order then active order
+  const locked = state.tiles.filter(t => t.locked);
+  state.tiles = [...locked, ...active];
+  renderGrid();
+  // re-apply selected highlight
+  state.selected = [];
+  state.lastTapped = null;
+  state.tiles.forEach((t, i) => { if (t.selected) { state.selected.push(i); state.lastTapped = i; }});
+  updateEtym();
+  updateSubmit();
+});
+
+btnDeselect.addEventListener("click", () => {
+  state.selected.forEach(i => {
+    state.tiles[i].selected = false;
+    state.tiles[i].el && state.tiles[i].el.classList.remove("selected");
+  });
+  state.selected = [];
+  state.lastTapped = null;
+  updateEtym();
+  updateSubmit();
+});
+
+btnSubmit.addEventListener("click", onSubmit);
+
+$("#btn-share").addEventListener("click", async () => {
+  const text = `VULGUS ${PUZZLE.id}\n${buildShareGrid()}\n${state.solved.length}/4 — ${state.mistakes} mistake${state.mistakes === 1 ? "" : "s"}`;
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast("Copied.");
+  } catch (e) {
+    showToast("Copy failed.");
+  }
+});
+
+$("#btn-again").addEventListener("click", () => location.reload());
+
+// ---------------------------------------------------------------
+// Init
+// ---------------------------------------------------------------
+buildTiles();
+renderGrid();
+updateLives();
+updateSubmit();
+</script>
+</body>
+</html>
