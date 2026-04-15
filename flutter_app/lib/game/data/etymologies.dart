@@ -21,4 +21,10 @@ const etymologies = <String, Etymology>{
   'CODSWALLOP': Etymology(meta: 'UK · 20th C',              note: "Possibly from Hiram Codd's 1872 bottle plus \"wallop\" (beer) — worthless fizzy water, hence nonsense."),
   'POPPYCOCK':  Etymology(meta: 'US · 19th C',              note: 'From Dutch pappekak — "soft dung". Sounds polite; originally was anything but.'),
   'BALDERDASH': Etymology(meta: '16th C',                   note: 'Originally a 16th-century frothy drink mix; by the 1670s it meant senseless talk.'),
+  // Mini-puzzle demo words (onboarding)
+  'GOSH':       Etymology(meta: 'global · 18th C',          note: 'Minced oath for "God" — polite substitute used since the 1750s to avoid taking the Lord\'s name in vain.'),
+  'HECK':       Etymology(meta: 'UK · 19th C',              note: 'Minced oath for "hell" — Scottish/northern English softening that went global via the 19th-century working class.'),
+  'KNACKERED':  Etymology(meta: 'UK · 19th C',              note: 'From "knacker" (horse slaughterer); something knackered is fit only for the knacker\'s yard.'),
+  'NAFF':       Etymology(meta: 'UK · 1960s',               note: 'British slang for tacky or uncool. Popularised by Polari gay slang and cemented by Princess Anne.'),
+  'GOBSMACKED': Etymology(meta: 'UK · 1980s',               note: 'Literally smacked in the gob (mouth) — a 1980s northern English coinage for utter astonishment.'),
 };
