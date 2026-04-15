@@ -12,7 +12,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: TileGrid()),
       ),
-    ));
+    ),);
     expect(find.byType(InkWell), findsNWidgets(8));
   });
 
@@ -24,7 +24,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: TileGrid()),
       ),
-    ));
+    ),);
     final firstWord = container.read(miniPuzzleProvider).tiles.first.word;
     await tester.tap(find.text(firstWord.toUpperCase()));
     await tester.pump();
