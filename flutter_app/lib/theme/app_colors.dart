@@ -19,6 +19,8 @@ class AppColors {
   static const tertiary = Color(0xFF006482);
   static const tertiaryContainer = Color(0xFF007EA4);
   static const onTertiary = Color(0xFFFFFFFF);
+  static const surfaceDim = Color(0xFFDADADA);
+  static const inverseSurfaceBlack = Color(0xFF303030);
   static const outline = Color(0xFF8F6F6E);
   static const error = Color(0xFFBA1A1A);
 }
