@@ -34,7 +34,7 @@ class GoalScreen extends ConsumerWidget {
                   children: [
                     const SizedBox(height: 24),
                     Text('What brings you to VULGUS?',
-                        style: Theme.of(context).textTheme.headlineLarge),
+                        style: Theme.of(context).textTheme.headlineLarge,),
                     const SizedBox(height: 24),
                     Expanded(
                       child: ListView(

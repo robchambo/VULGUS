@@ -35,10 +35,10 @@ class PainPointsScreen extends ConsumerWidget {
                   children: [
                     const SizedBox(height: 24),
                     Text('What annoys you about other word games?',
-                        style: Theme.of(context).textTheme.headlineLarge),
+                        style: Theme.of(context).textTheme.headlineLarge,),
                     const SizedBox(height: 8),
                     Text('Pick as many as you like.',
-                        style: Theme.of(context).textTheme.bodyMedium),
+                        style: Theme.of(context).textTheme.bodyMedium,),
                     const SizedBox(height: 24),
                     Expanded(
                       child: ListView(

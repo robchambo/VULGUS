@@ -12,7 +12,7 @@ void main() {
     await tester.pumpWidget(UncontrolledProviderScope(
       container: container,
       child: MaterialApp(theme: buildAppTheme(), home: const GoalScreen()),
-    ));
+    ),);
     expect(find.text('CONTINUE'), findsOneWidget);
 
     await tester.tap(find.textContaining('Connections refugee'));

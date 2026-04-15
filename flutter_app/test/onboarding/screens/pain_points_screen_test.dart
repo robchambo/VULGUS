@@ -11,7 +11,7 @@ void main() {
     await tester.pumpWidget(UncontrolledProviderScope(
       container: container,
       child: MaterialApp(theme: buildAppTheme(), home: const PainPointsScreen()),
-    ));
+    ),);
 
     await tester.tap(find.textContaining('too sanitised'));
     await tester.tap(find.textContaining('too easy'));

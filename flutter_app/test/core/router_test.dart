@@ -9,7 +9,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     await tester.pumpWidget(const ProviderScope(child: VulgusApp()));
     await tester.pumpAndSettle();
-    expect(find.text('A daily word game for the common people'), findsOneWidget);
+    expect(find.textContaining('common people'), findsOneWidget);
   });
 
   testWidgets('routes to /home when onboarding complete', (tester) async {

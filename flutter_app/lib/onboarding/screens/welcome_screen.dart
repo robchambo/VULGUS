@@ -27,7 +27,7 @@ class WelcomeScreen extends StatelessWidget {
                     children: [
                       const SizedBox(height: 24),
                       Text('VULGUS',
-                          style: t.displayLarge?.copyWith(color: AppColors.primary)),
+                          style: t.displayLarge?.copyWith(color: AppColors.primary),),
                       const SizedBox(height: 12),
                       Text(
                         'A daily word game for the common people.',
@@ -48,7 +48,7 @@ class WelcomeScreen extends StatelessWidget {
                             ),
                             child: const Center(
                               child: Icon(Icons.grid_view,
-                                  size: 96, color: AppColors.onSurface),
+                                  size: 96, color: AppColors.onSurface,),
                             ),
                           ),
                         ),
