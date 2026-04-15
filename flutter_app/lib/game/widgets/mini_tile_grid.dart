@@ -4,8 +4,8 @@ import '../../theme/app_colors.dart';
 import '../mini_puzzle_controller.dart';
 import '../mini_puzzle_data.dart';
 
-class TileGrid extends ConsumerWidget {
-  const TileGrid({super.key});
+class MiniTileGrid extends ConsumerWidget {
+  const MiniTileGrid({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

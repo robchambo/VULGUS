@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import '../../game/mini_puzzle_controller.dart';
 import '../../game/mini_puzzle_data.dart';
-import '../../game/widgets/share_grid.dart';
+import '../../game/widgets/mini_share_grid.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/progress_bar.dart';
 
@@ -35,7 +35,7 @@ class ShareGridScreen extends ConsumerWidget {
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 24),
-                    const ShareGrid(),
+                    const MiniShareGrid(),
                     const Spacer(),
                     PrimaryButton(
                       label: 'Share',

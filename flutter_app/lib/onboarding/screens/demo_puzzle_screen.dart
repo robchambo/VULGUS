@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../game/mini_puzzle_controller.dart';
-import '../../game/widgets/etymology_strip.dart';
-import '../../game/widgets/tile_grid.dart';
+import '../../game/widgets/mini_etymology_strip.dart';
+import '../../game/widgets/mini_tile_grid.dart';
 import '../../theme/app_colors.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/progress_bar.dart';
@@ -65,12 +65,12 @@ class DemoPuzzleScreen extends ConsumerWidget {
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 24),
-              child: TileGrid(),
+              child: MiniTileGrid(),
             ),
             const SizedBox(height: 16),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 24),
-              child: EtymologyStrip(),
+              child: MiniEtymologyStrip(),
             ),
             const Spacer(),
             Padding(

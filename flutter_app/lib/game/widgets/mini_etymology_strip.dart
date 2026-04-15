@@ -4,8 +4,8 @@ import '../../theme/app_colors.dart';
 import '../mini_puzzle_controller.dart';
 import '../mini_puzzle_data.dart';
 
-class EtymologyStrip extends ConsumerWidget {
-  const EtymologyStrip({super.key});
+class MiniEtymologyStrip extends ConsumerWidget {
+  const MiniEtymologyStrip({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

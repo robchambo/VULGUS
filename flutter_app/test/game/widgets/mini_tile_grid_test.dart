@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:vulgus/game/mini_puzzle_controller.dart';
-import 'package:vulgus/game/widgets/tile_grid.dart';
+import 'package:vulgus/game/widgets/mini_tile_grid.dart';
 import 'package:vulgus/theme/app_theme.dart';
 
 void main() {
@@ -10,7 +10,7 @@ void main() {
     await tester.pumpWidget(ProviderScope(
       child: MaterialApp(
         theme: buildAppTheme(),
-        home: const Scaffold(body: TileGrid()),
+        home: const Scaffold(body: MiniTileGrid()),
       ),
     ),);
     expect(find.byType(InkWell), findsNWidgets(8));
@@ -22,7 +22,7 @@ void main() {
       container: container,
       child: MaterialApp(
         theme: buildAppTheme(),
-        home: const Scaffold(body: TileGrid()),
+        home: const Scaffold(body: MiniTileGrid()),
       ),
     ),);
     final firstWord = container.read(miniPuzzleProvider).tiles.first.word;

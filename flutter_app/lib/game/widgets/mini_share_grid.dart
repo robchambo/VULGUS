@@ -6,8 +6,8 @@ import '../mini_puzzle_data.dart';
 
 /// 2x4 Bauhaus shape grid summarising the player's solve.
 /// Each row = one category. Filled square = correct, hollow = lost a life on it.
-class ShareGrid extends ConsumerWidget {
-  const ShareGrid({super.key});
+class MiniShareGrid extends ConsumerWidget {
+  const MiniShareGrid({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
