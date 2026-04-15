@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../core/first_launch.dart';
-import '../home/home_placeholder.dart';
+import '../home/home_shell.dart';
 import '../onboarding/screens/welcome_screen.dart';
 import '../onboarding/screens/goal_screen.dart';
 import '../onboarding/screens/pain_points_screen.dart';
@@ -22,7 +22,7 @@ GoRouter buildRouter(bool isFirstLaunch) {
   return GoRouter(
     initialLocation: isFirstLaunch ? '/onboarding/welcome' : '/home',
     routes: [
-      GoRoute(path: '/home', builder: (_, __) => const HomePlaceholder()),
+      GoRoute(path: '/home', builder: (_, __) => const HomeShell()),
       GoRoute(path: '/onboarding/welcome', builder: (_, __) => const WelcomeScreen()),
       GoRoute(path: '/onboarding/goal', builder: (_, __) => const GoalScreen()),
       GoRoute(path: '/onboarding/pain', builder: (_, __) => const PainPointsScreen()),
