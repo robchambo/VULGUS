@@ -21,7 +21,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: SolvedBanners()),
       ),
-    ));
+    ),);
     expect(find.textContaining(cat.label.toUpperCase()), findsOneWidget);
     expect(find.textContaining(cat.tiles.first), findsOneWidget);
   });

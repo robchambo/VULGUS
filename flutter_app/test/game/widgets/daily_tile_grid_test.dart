@@ -12,7 +12,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: DailyTileGrid()),
       ),
-    ));
+    ),);
     expect(find.byType(InkWell), findsNWidgets(16));
   });
 
@@ -24,7 +24,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: DailyTileGrid()),
       ),
-    ));
+    ),);
     final first = container.read(gameControllerProvider).activeTiles.first;
     await tester.tap(find.text(first));
     await tester.pump();
@@ -45,7 +45,7 @@ void main() {
         theme: buildAppTheme(),
         home: const Scaffold(body: DailyTileGrid()),
       ),
-    ));
+    ),);
     expect(find.byType(InkWell), findsNWidgets(12));
   });
 }
