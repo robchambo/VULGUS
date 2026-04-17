@@ -6,6 +6,10 @@ import 'package:vulgus/app.dart';
 
 void main() {
   testWidgets('routes to /onboarding/welcome when first launch', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
     SharedPreferences.setMockInitialValues({});
     await tester.pumpWidget(const ProviderScope(child: VulgusApp()));
     await tester.pumpAndSettle();
@@ -14,7 +18,7 @@ void main() {
 
   testWidgets('routes to /home when onboarding complete', (tester) async {
     tester.view.physicalSize = const Size(1080, 2400);
-    tester.view.devicePixelRatio = 3;
+    tester.view.devicePixelRatio = 2;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
     SharedPreferences.setMockInitialValues({'onboarding_completed_v1': true});

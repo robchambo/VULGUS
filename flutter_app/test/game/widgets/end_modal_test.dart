@@ -41,6 +41,10 @@ void main() {
   });
 
   testWidgets('copy share button writes text to clipboard', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
     final container = _solvedContainer();
     String? copied;
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger

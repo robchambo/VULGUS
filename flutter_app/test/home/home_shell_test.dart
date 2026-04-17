@@ -26,7 +26,7 @@ void main() {
       child: MaterialApp(theme: buildAppTheme(), home: const HomeShell()),
     ),);
     await tester.tap(find.text('RULES'));
-    await tester.pumpAndSettle();
+    await tester.pump();
     expect(find.textContaining('HOW TO PLAY'), findsOneWidget);
   });
 }
