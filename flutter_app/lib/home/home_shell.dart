@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../archive/archive_placeholder.dart';
+import '../archive/archive_screen.dart';
 import '../game/widgets/vulgus_app_bar.dart';
 import '../game/widgets/vulgus_bottom_nav.dart';
 import '../rules/rules_screen.dart';
@@ -19,7 +19,7 @@ class _HomeShellState extends ConsumerState<HomeShell> {
   static const _tabs = <Widget>[
     GameScreen(),
     StatsPlaceholder(),
-    ArchivePlaceholder(),
+    ArchiveScreen(),
     RulesScreen(),
   ];
 

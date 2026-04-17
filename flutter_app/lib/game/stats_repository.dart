@@ -6,6 +6,7 @@ import 'models/game_stats.dart';
 class StatsRepository {
   static const _statsKey = 'game_stats_v1';
   static const _todayPlayKey = 'today_play_v1';
+  static const _playedDatesKey = 'played_dates_v1';
 
   String _dateKey(DateTime d) =>
       '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
@@ -75,6 +76,21 @@ class StatsRepository {
       lastPlayedDate: _today,
     );
     await prefs.setString(_statsKey, jsonEncode(updated.toJson()));
+
+    await _savePlayedDate(_today);
+  }
+
+  Future<Set<String>> loadPlayedDates() async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_playedDatesKey);
+    return raw?.toSet() ?? {};
+  }
+
+  Future<void> _savePlayedDate(String dateKey) async {
+    final prefs = await SharedPreferences.getInstance();
+    final existing = prefs.getStringList(_playedDatesKey) ?? [];
+    final updated = {...existing, dateKey}.toList();
+    await prefs.setStringList(_playedDatesKey, updated);
   }
 }
 
@@ -87,4 +103,8 @@ final statsProvider = FutureProvider<GameStats>(
 
 final todayResultProvider = FutureProvider<TodayResult?>(
   (ref) => ref.read(statsRepositoryProvider).todayResult(),
+);
+
+final playedDatesProvider = FutureProvider<Set<String>>(
+  (ref) => ref.read(statsRepositoryProvider).loadPlayedDates(),
 );
