@@ -3,37 +3,37 @@ import '../models/puzzle.dart';
 import '../models/puzzle_category.dart';
 import '../../theme/app_colors.dart';
 
-// All Nonsense
-const vulgus005 = Puzzle(
-  id: 'VULGUS-005',
+// Words for Rubbish
+const vulgus026 = Puzzle(
+  id: 'VULGUS-026',
   categories: [
     PuzzleCategory(
-      id: 'nonsense-y',
-      label: 'G-rated words for nonsense',
+      id: 'rub-y',
+      label: 'G-rated rubbish words',
       etymology: 'From violin bows being flimsy and trivial; 17th C.',
       color: AppColors.secondaryContainer,
       difficulty: Difficulty.easy,
-      tiles: ['FIDDLESTICKS', 'HOGWASH', 'HOOEY', 'RATS'],
+      tiles: ['FIDDLESTICKS', 'HOOEY', 'HOGWASH', 'RATS'],
     ),
     PuzzleCategory(
-      id: 'nonsense-v',
-      label: 'Victorian words for nonsense',
-      etymology: 'Late 18th C, from \'twattle\' (prattle).',
+      id: 'rub-v',
+      label: 'Victorian rubbish',
+      etymology: 'Mid-18th C; made famous by Dickens\' Scrooge.',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['TWADDLE', 'BUNKUM', 'HUMBUG', 'CLAPTRAP'],
+      tiles: ['HUMBUG', 'BUNKUM', 'TWADDLE', 'CLAPTRAP'],
     ),
     PuzzleCategory(
-      id: 'nonsense-a',
-      label: 'American words for nonsense',
+      id: 'rub-a',
+      label: 'American rubbish',
       etymology: '1920s US; origin disputed — possibly from Irish surname.',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['MALARKEY', 'BALONEY', 'BUBKES', 'COCKAMAMIE'],
+      tiles: ['MALARKEY', 'BALONEY', 'COCKAMAMIE', 'BUBKES'],
     ),
     PuzzleCategory(
-      id: 'nonsense-k',
-      label: 'Archaic US nonsense words',
+      id: 'rub-k',
+      label: 'Archaic rubbish',
       etymology: '1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.',
       color: AppColors.onSurface,
       difficulty: Difficulty.trickiest,

@@ -3,40 +3,41 @@ import '../models/puzzle.dart';
 import '../models/puzzle_category.dart';
 import '../../theme/app_colors.dart';
 
+// Taking the Lord's Name
 const vulgus002 = Puzzle(
   id: 'VULGUS-002',
   categories: [
     PuzzleCategory(
-      id: 'fools',
-      label: 'British Words for a Fool',
-      etymology: '',
+      id: 'god-lite',
+      label: 'Polite stand-ins for 'God'',
+      etymology: 'Clipped form of \'Jesus\'; late 19th C US.',
       color: AppColors.secondaryContainer,
       difficulty: Difficulty.easy,
-      tiles: ['BERK', 'TWIT', 'PRAT', 'NUMPTY'],
+      tiles: ['GEE', 'GOSH', 'GOLLY', 'CRIPES'],
     ),
     PuzzleCategory(
-      id: 'tipsy',
-      label: 'Politely Drunk',
-      etymology: '',
+      id: 'divine-med',
+      label: 'Stronger divine oaths',
+      etymology: 'From Old French \'damner\' → to condemn; softened to a general intensifier.',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['TIPSY', 'MERRY', 'SQUIFFY', 'SLOSHED'],
+      tiles: ['DAMN', 'BEJESUS', 'HELLFIRE', 'FECKIN'],
     ),
     PuzzleCategory(
-      id: 'exclaim',
-      label: 'Archaic Exclamations',
-      etymology: '',
-      color: AppColors.primary,
-      difficulty: Difficulty.hard,
-      tiles: ['ZOUNDS', 'EGAD', 'GADZOOKS', 'STREWTH'],
+      id: 'us-oaths',
+      label: 'American minced oaths',
+      etymology: 'Minced form of \'Jesus\'; popularised 1920s US.',
+      color: AppColors.secondaryContainer,
+      difficulty: Difficulty.easy,
+      tiles: ['JEEZ', 'JEEPERS', 'SAKES', 'CRIMINY'],
     ),
     PuzzleCategory(
-      id: 'rascals',
-      label: 'Archaic Words for a Rascal',
-      etymology: '',
+      id: 'archaic-divine',
+      label: 'Archaic divine oaths',
+      etymology: 'Contraction of \'God\'s wounds\' — 16th C oath.',
       color: AppColors.onSurface,
       difficulty: Difficulty.trickiest,
-      tiles: ['VARLET', 'RAPSCALLION', 'SCALLYWAG', 'BOUNDER'],
+      tiles: ['ZOUNDS', 'EGAD', 'GADZOOKS', 'TARNATION'],
     ),
   ],
 );

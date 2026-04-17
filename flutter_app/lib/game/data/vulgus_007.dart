@@ -3,40 +3,41 @@ import '../models/puzzle.dart';
 import '../models/puzzle_category.dart';
 import '../../theme/app_colors.dart';
 
+// American as Apple Pie
 const vulgus007 = Puzzle(
   id: 'VULGUS-007',
   categories: [
     PuzzleCategory(
-      id: 'dim',
-      label: 'Words for Stupid',
-      etymology: '',
+      id: 'us-mild',
+      label: 'Mild American fools',
+      etymology: 'From Yiddish \'klots\' — block of wood; clumsy person.',
       color: AppColors.secondaryContainer,
       difficulty: Difficulty.easy,
-      tiles: ['GORMLESS', 'WITLESS', 'VAPID', 'OBTUSE'],
+      tiles: ['KLUTZ', 'KOOK', 'GOOBER', 'DWEEB'],
     ),
     PuzzleCategory(
-      id: 'codger',
-      label: 'Words for an Old Man',
-      etymology: '',
+      id: 'us-strong',
+      label: 'Stronger American words',
+      etymology: 'From Yiddish \'shmok\' — penis; Yiddish origin keeps it strong in-community.',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['CODGER', 'GEEZER', 'FOGEY', 'BUFFER'],
+      tiles: ['SCHMUCK', 'PUTZ', 'CRAP', 'JACKASS'],
     ),
     PuzzleCategory(
-      id: 'hokum',
-      label: 'Words for Deceptive Nonsense',
-      etymology: '',
-      color: AppColors.primary,
-      difficulty: Difficulty.hard,
-      tiles: ['HUMBUG', 'HOKUM', 'FLIMFLAM', 'MALARKEY'],
+      id: 'head-words',
+      label: 'Words ending in -HEAD',
+      etymology: 'Mid-19th C US; \'lump\' + \'head\'.',
+      color: AppColors.tertiary,
+      difficulty: Difficulty.medium,
+      tiles: ['LUNKHEAD', 'MEATHEAD', 'BONEHEAD', 'CHUCKLEHEAD'],
     ),
     PuzzleCategory(
-      id: 'niggle',
-      label: 'Subtle Words for Annoy',
-      etymology: '',
-      color: AppColors.onSurface,
-      difficulty: Difficulty.trickiest,
-      tiles: ['VEX', 'IRK', 'NETTLE', 'RANKLE'],
+      id: 'wwii',
+      label: 'WWII-era American slang',
+      etymology: 'Modern US military slang for a non-combat soldier.',
+      color: AppColors.tertiary,
+      difficulty: Difficulty.medium,
+      tiles: ['POGUE', 'PALOOKA', 'CLUSTER', 'BOGUS'],
     ),
   ],
 );

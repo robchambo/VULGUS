@@ -3,40 +3,41 @@ import '../models/puzzle.dart';
 import '../models/puzzle_category.dart';
 import '../../theme/app_colors.dart';
 
+// Down the Rabbit Hole
 const vulgus006 = Puzzle(
   id: 'VULGUS-006',
   categories: [
     PuzzleCategory(
-      id: 'stroppy',
-      label: 'Irritable and Bad-Tempered',
-      etymology: '',
-      color: AppColors.secondaryContainer,
-      difficulty: Difficulty.easy,
-      tiles: ['STROPPY', 'SHIRTY', 'TETCHY', 'SNAPPY'],
-    ),
-    PuzzleCategory(
-      id: 'mosey',
-      label: 'Ways to Walk Without Hurry',
-      etymology: '',
+      id: 'scifi',
+      label: 'Fictional TV swears',
+      etymology: 'Battlestar Galactica (1978 / 2004) — invented profanity.',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['LOLLYGAG', 'DAWDLE', 'MOSEY', 'AMBLE'],
+      tiles: ['FRAK', 'SMEG', 'FRELL', 'GORRAM'],
     ),
     PuzzleCategory(
-      id: 'flummox',
-      label: 'Ways to Utterly Confuse',
-      etymology: '',
-      color: AppColors.primary,
-      difficulty: Difficulty.hard,
-      tiles: ['FLUMMOX', 'BAMBOOZLE', 'BEFUDDLE', 'DISCOMBOBULATE'],
-    ),
-    PuzzleCategory(
-      id: 'oaf',
-      label: 'Words for a Clumsy Person',
-      etymology: '',
+      id: 'military',
+      label: 'Military acronyms',
+      etymology: 'WWII US military acronym: Situation Normal, All F***ed Up.',
       color: AppColors.onSurface,
       difficulty: Difficulty.trickiest,
-      tiles: ['LUMMOX', 'OAF', 'GALOOT', 'LUBBER'],
+      tiles: ['SNAFU', 'FUBAR', 'BOHICA', 'TARFU'],
+    ),
+    PuzzleCategory(
+      id: 'west',
+      label: 'Old Western US expressions',
+      etymology: 'Ozark/Southern US minced form of \'God damn it\'.',
+      color: AppColors.secondaryContainer,
+      difficulty: Difficulty.easy,
+      tiles: ['DAGNABBIT', 'JIMINY', 'CONSARN', 'FIDDLE-FADDLE'],
+    ),
+    PuzzleCategory(
+      id: 'obscure',
+      label: '19th-century US curiosities',
+      etymology: '19th C US — a shrewd, unprincipled politician.',
+      color: AppColors.onSurface,
+      difficulty: Difficulty.trickiest,
+      tiles: ['SNOLLYGOSTER', 'CATTYWAMPUS', 'HORSEFEATHERS', 'BUSHWA'],
     ),
   ],
 );

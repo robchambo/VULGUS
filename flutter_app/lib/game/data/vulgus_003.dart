@@ -3,40 +3,41 @@ import '../models/puzzle.dart';
 import '../models/puzzle_category.dart';
 import '../../theme/app_colors.dart';
 
+// Fifty Shades of Fool
 const vulgus003 = Puzzle(
   id: 'VULGUS-003',
   categories: [
     PuzzleCategory(
-      id: 'mildly',
-      label: 'Mildly Irritated',
-      etymology: '',
+      id: 'brit-easy',
+      label: 'Classic words for a fool',
+      etymology: 'From \'twit\' (to taunt); as \'fool\' from 1920s RAF slang.',
       color: AppColors.secondaryContainer,
       difficulty: Difficulty.easy,
-      tiles: ['MIFFED', 'NARKED', 'PEEVED', 'RATTY'],
+      tiles: ['TWIT', 'NITWIT', 'KLUTZ', 'DWEEB'],
     ),
     PuzzleCategory(
-      id: 'grub',
-      label: 'Informal Words for Food',
-      etymology: '',
+      id: 'brit-scots',
+      label: 'British and Scottish fools',
+      etymology: 'Scots, late 20th C; origin uncertain — possibly from \'numps\' (fool).',
       color: AppColors.tertiary,
       difficulty: Difficulty.medium,
-      tiles: ['GRUB', 'NOSH', 'SCOFF', 'TUCKER'],
+      tiles: ['NUMPTY', 'PLONKER', 'PILLOCK', 'BAMPOT'],
     ),
     PuzzleCategory(
-      id: 'stench',
-      label: 'Words for a Bad Smell',
-      etymology: '',
-      color: AppColors.primary,
-      difficulty: Difficulty.hard,
-      tiles: ['PONG', 'REEK', 'WHIFF', 'NIFF'],
+      id: 'us-fools',
+      label: 'American slang fools',
+      etymology: '1960s US; originally slang for penis, now chiefly \'fool\'.',
+      color: AppColors.tertiary,
+      difficulty: Difficulty.medium,
+      tiles: ['DORK', 'YAHOO', 'BONEHEAD', 'KNUCKLEHEAD'],
     ),
     PuzzleCategory(
-      id: 'privy',
-      label: 'Old Words for the Toilet',
-      etymology: '',
-      color: AppColors.onSurface,
-      difficulty: Difficulty.trickiest,
-      tiles: ['PRIVY', 'LATRINE', 'COMMODE', 'OUTHOUSE'],
+      id: 'old-us',
+      label: 'Old American slang fools',
+      etymology: '19th C US; \'chuck\' = lump of wood.',
+      color: AppColors.tertiary,
+      difficulty: Difficulty.medium,
+      tiles: ['CHUCKLEHEAD', 'DINGBAT', 'DIPSTICK', 'PALOOKA'],
     ),
   ],
 );
