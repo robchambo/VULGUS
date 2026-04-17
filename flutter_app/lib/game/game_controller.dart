@@ -2,15 +2,15 @@ import 'dart:math';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'data/vulgus_001.dart';
+import 'daily_puzzle_service.dart';
 import 'game_state.dart';
 import 'models/guess.dart';
 import 'models/puzzle.dart';
 
 class GameController extends StateNotifier<GameState> {
-  GameController({Puzzle? puzzle, Random? rng})
+  GameController({required Puzzle puzzle, Random? rng})
       : _rng = rng ?? Random(),
-        super(_initialState(puzzle ?? vulgus001, rng ?? Random()));
+        super(_initialState(puzzle, rng ?? Random()));
 
   final Random _rng;
 
@@ -74,7 +74,6 @@ class GameController extends StateNotifier<GameState> {
       return;
     }
 
-    // wrong
     final counts = <String, int>{};
     for (final id in catIds) {
       counts[id] = (counts[id] ?? 0) + 1;
@@ -84,7 +83,6 @@ class GameController extends StateNotifier<GameState> {
     final newGuesses = [...state.guesses, Guess(categoryIds: catIds, correct: false)];
 
     if (newMistakes >= 4) {
-      // auto-reveal remaining categories
       final remainingCats = [
         for (final c in state.puzzle.categories)
           if (!state.solved.contains(c.id)) c.id,
@@ -112,6 +110,7 @@ class GameController extends StateNotifier<GameState> {
 }
 
 final gameControllerProvider =
-    StateNotifierProvider<GameController, GameState>(
-  (ref) => GameController(),
-);
+    StateNotifierProvider<GameController, GameState>((ref) {
+  final puzzle = ref.read(dailyPuzzleProvider);
+  return GameController(puzzle: puzzle);
+});

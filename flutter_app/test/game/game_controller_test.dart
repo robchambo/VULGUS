@@ -1,11 +1,15 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:vulgus/game/data/vulgus_001.dart';
+import 'package:vulgus/game/daily_puzzle_service.dart';
 import 'package:vulgus/game/game_controller.dart';
 
-void main() {
-  ProviderContainer fresh() => ProviderContainer();
+// Pin the daily puzzle to vulgus001 so tests are date-independent.
+ProviderContainer fresh() => ProviderContainer(
+      overrides: [dailyPuzzleProvider.overrideWithValue(vulgus001)],
+    );
 
+void main() {
   test('starts with 16 tiles, 0 mistakes, 0 solved, no last-tapped', () {
     final c = fresh();
     final s = c.read(gameControllerProvider);
