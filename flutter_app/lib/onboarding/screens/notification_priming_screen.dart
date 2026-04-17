@@ -15,7 +15,7 @@ class NotificationPrimingScreen extends ConsumerWidget {
     ref
         .read(onboardingControllerProvider.notifier)
         .setNotificationsRequested(granted);
-    if (context.mounted) context.go('/onboarding/processing');
+    if (context.mounted) context.go('/home');
   }
 
   @override
@@ -24,7 +24,7 @@ class NotificationPrimingScreen extends ConsumerWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const OnboardingProgressBar(step: 6, total: 11),
+            const OnboardingProgressBar(step: 2, total: 2),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(24),
@@ -62,7 +62,7 @@ class NotificationPrimingScreen extends ConsumerWidget {
                     const SizedBox(height: 12),
                     Center(
                       child: TextButton(
-                        onPressed: () => context.go('/onboarding/processing'),
+                        onPressed: () => context.go('/home'),
                         child: const Text('Not now'),
                       ),
                     ),
