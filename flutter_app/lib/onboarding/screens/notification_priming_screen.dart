@@ -12,6 +12,9 @@ class NotificationPrimingScreen extends ConsumerWidget {
 
   Future<void> _enable(BuildContext context, WidgetRef ref) async {
     final granted = await NotificationService().requestPermission();
+    if (granted) {
+      await NotificationService.scheduleDailyReminder();
+    }
     ref
         .read(onboardingControllerProvider.notifier)
         .setNotificationsRequested(granted);
