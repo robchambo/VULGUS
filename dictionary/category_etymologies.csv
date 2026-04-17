@@ -1,0 +1,201 @@
+﻿Puzzle,Puzzle #,Category ID,Category Label,Difficulty,Tiles,Etymology,Word Count
+VULGUS-001,1,idiot,Words for Idiot,Easy,NIMROD / DOOFUS / MUPPET / WALLY,Biblical hunter; inverted to 'fool' by Bugs Bunny's mocking use (1940s).,11
+VULGUS-001,1,soft,Soft Swears (G-rated),Easy,SUGAR / FUDGE / SHOOT / CRIKEY,Stand-in for a stronger s-word; established 20th C.,8
+VULGUS-001,1,british,British Swears,Hard,BOLLOCKS / ARSE / BUM / BLIMEY,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-001,1,nonsense,Words for Nonsense,Medium,TOSH / CODSWALLOP / POPPYCOCK / BALDERDASH,19th C slang for rubbish; origin disputed.,7
+VULGUS-002,2,god-lite,Polite stand-ins for 'God',Easy,GEE / GOSH / GOLLY / CRIPES,Clipped form of 'Jesus'; late 19th C US.,8
+VULGUS-002,2,divine-med,Stronger divine oaths,Medium,DAMN / BEJESUS / HELLFIRE / FECKIN,From Old French 'damner' → to condemn; softened to a general intensifier.,12
+VULGUS-002,2,us-oaths,American minced oaths,Easy,JEEZ / JEEPERS / SAKES / CRIMINY,Minced form of 'Jesus'; popularised 1920s US.,7
+VULGUS-002,2,archaic-divine,Archaic divine oaths,Trickiest,ZOUNDS / EGAD / GADZOOKS / TARNATION,Contraction of 'God's wounds' — 16th C oath.,8
+VULGUS-003,3,brit-easy,Classic words for a fool,Easy,TWIT / NITWIT / KLUTZ / DWEEB,From 'twit' (to taunt); as 'fool' from 1920s RAF slang.,10
+VULGUS-003,3,brit-scots,British and Scottish fools,Medium,NUMPTY / PLONKER / PILLOCK / BAMPOT,"Scots, late 20th C; origin uncertain — possibly from 'numps' (fool).",11
+VULGUS-003,3,us-fools,American slang fools,Medium,DORK / YAHOO / BONEHEAD / KNUCKLEHEAD,"1960s US; originally slang for penis, now chiefly 'fool'.",9
+VULGUS-003,3,old-us,Old American slang fools,Medium,CHUCKLEHEAD / DINGBAT / DIPSTICK / PALOOKA,19th C US; 'chuck' = lump of wood.,8
+VULGUS-004,4,mild-ex,Mild exclamations of frustration,Easy,SHUCKS / PHOOEY / DRAT / CRUMBS,Originally 'husks of no value' → worthless → mild exclamation.,10
+VULGUS-004,4,brit-med,Classic British swears,Medium,BUGGER / BLOODY / SCOUNDREL / COW,From Medieval Latin 'Bulgarus' — referring to heretical Bulgarian sect; meaning shifted through centuries.,14
+VULGUS-004,4,brit-hard,Strong British Isles swears,Hard,KNACKERS / BERK / WANKER / GOBSHITE,From 'knacker' — a horse slaughterer; slang for testicles since 19th C.,12
+VULGUS-004,4,shake,Shakespearean insults,Trickiest,VARLET / KNAVE / RAPSCALLION / MOUNTEBANK,Medieval: a knight's attendant → rogue by 16th C.,9
+VULGUS-005,5,nonsense-y,G-rated words for nonsense,Easy,FIDDLESTICKS / HOGWASH / HOOEY / RATS,From violin bows being flimsy and trivial; 17th C.,9
+VULGUS-005,5,nonsense-v,Victorian words for nonsense,Medium,TWADDLE / BUNKUM / HUMBUG / CLAPTRAP,"Late 18th C, from 'twattle' (prattle).",6
+VULGUS-005,5,nonsense-a,American words for nonsense,Medium,MALARKEY / BALONEY / BUBKES / COCKAMAMIE,1920s US; origin disputed — possibly from Irish surname.,9
+VULGUS-005,5,nonsense-k,Archaic US nonsense words,Trickiest,HORSEFEATHERS / BUSHWA / FLAPDOODLE / HORNSWOGGLE,1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.,11
+VULGUS-006,6,scifi,Fictional TV swears,Medium,FRAK / SMEG / FRELL / GORRAM,Battlestar Galactica (1978 / 2004) — invented profanity.,8
+VULGUS-006,6,military,Military acronyms,Trickiest,SNAFU / FUBAR / BOHICA / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-006,6,west,Old Western US expressions,Easy,DAGNABBIT / JIMINY / CONSARN / FIDDLE-FADDLE,Ozark/Southern US minced form of 'God damn it'.,8
+VULGUS-006,6,obscure,19th-century US curiosities,Trickiest,SNOLLYGOSTER / CATTYWAMPUS / HORSEFEATHERS / BUSHWA,"19th C US — a shrewd, unprincipled politician.",8
+VULGUS-007,7,us-mild,Mild American fools,Easy,KLUTZ / KOOK / GOOBER / DWEEB,From Yiddish 'klots' — block of wood; clumsy person.,9
+VULGUS-007,7,us-strong,Stronger American words,Medium,SCHMUCK / PUTZ / CRAP / JACKASS,From Yiddish 'shmok' — penis; Yiddish origin keeps it strong in-community.,11
+VULGUS-007,7,head-words,Words ending in -HEAD,Medium,LUNKHEAD / MEATHEAD / BONEHEAD / CHUCKLEHEAD,Mid-19th C US; 'lump' + 'head'.,6
+VULGUS-007,7,wwii,WWII-era American slang,Medium,POGUE / PALOOKA / CLUSTER / BOGUS,Modern US military slang for a non-combat soldier.,8
+VULGUS-008,8,irish,Irish English favourites,Medium,EEJIT / GOBSHITE / BAMPOT / FECKIN,Hiberno-English rendering of 'idiot'.,4
+VULGUS-008,8,aussie,Australian slang,Medium,DRONGO / GALAH / BOGAN / WANKER,From an Australian racehorse (1920s) that never won; then bird → fool.,12
+VULGUS-008,8,brit-y,Easy British words,Easy,BUM / BLIMEY / RATS / DRAT,Dates to 14th C Middle English — probably onomatopoeic.,9
+VULGUS-008,8,uk-med,Medium British words,Medium,BUGGER / BLOODY / PILLOCK / NUMPTY,From Medieval Latin 'Bulgarus' — referring to heretical Bulgarian sect; meaning shifted through centuries.,14
+VULGUS-009,9,food-swears,Words that are also foods,Easy,SUGAR / FUDGE / CRUMBS / BALONEY,Stand-in for a stronger s-word; established 20th C.,8
+VULGUS-009,9,animals,Animals used as insults,Easy,PIG / RATS / TURKEY / JACKASS,Derogatory use since 14th C.,5
+VULGUS-009,9,salty-slang,American food-flavoured slang,Medium,SALTY / GOOBER / PEANUT / CRUD,2010s US internet slang; 'bitter or resentful'. Earlier Navy slang too.,11
+VULGUS-009,9,eponymous,Words named after people,Trickiest,NIMROD / CRAPPER / SNOLLYGOSTER / MOUNTEBANK,Biblical hunter; inverted to 'fool' by Bugs Bunny's mocking use (1940s).,11
+VULGUS-010,10,shake2,More Shakespearean insults,Trickiest,SCOUNDREL / VARLET / RAPSCALLION / KNAVE,Origin disputed; 16th C.,4
+VULGUS-010,10,vict,Victorian-era words,Medium,HUMBUG / CLAPTRAP / POPPYCOCK / TWADDLE,Mid-18th C; made famous by Dickens' Scrooge.,7
+VULGUS-010,10,archaic2,Archaic rogue terms,Trickiest,SNOLLYGOSTER / MOUNTEBANK / CATTYWAMPUS / CONSARN,"19th C US — a shrewd, unprincipled politician.",8
+VULGUS-010,10,brit-rd,British swears (rude),Hard,BOLLOCKS / ARSE / KNACKERS / BERK,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-011,11,brit-tipsy,Politely drunk (British),Easy,BUM / BLIMEY / SHUCKS / CRIKEY,Dates to 14th C Middle English — probably onomatopoeic.,9
+VULGUS-011,11,nonsense2,More words for nonsense,Medium,HOGWASH / HOOEY / CODSWALLOP / TOSH,Originally slop fed to pigs; figurative by 18th C.,9
+VULGUS-011,11,us-slang2,Modern US slang,Easy,BOGUS / WACK / BUSTED / JANKY,"1790s US counterfeit coins; 'fake, bad'.",6
+VULGUS-011,11,us-archaic,Archaic US nonsense,Trickiest,HORSEFEATHERS / FIDDLE-FADDLE / FLAPDOODLE / HORNSWOGGLE,1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.,11
+VULGUS-012,12,anatomy,Words with anatomical roots,Hard,BOLLOCKS / KNACKERS / BERK / PILLOCK,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-012,12,mild-body,Mild body-based words,Easy,BUM / DORK / DIPSTICK / NUMPTY,Dates to 14th C Middle English — probably onomatopoeic.,9
+VULGUS-012,12,mil-body,Military slang,Trickiest,SNAFU / FUBAR / BOHICA / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-012,12,polit,Political/social slang,Medium,SCHMUCK / POGUE / YAHOO / BOGUS,From Yiddish 'shmok' — penis; Yiddish origin keeps it strong in-community.,11
+VULGUS-013,13,gen-z,Gen-Z slang,Easy,BOGUS / BUSTED / SALTY / SHOOK,"1790s US counterfeit coins; 'fake, bad'.",6
+VULGUS-013,13,gen-z2,More Gen-Z slang,Easy,WACK / DISS / JANKY / OPE,"1980s US hip-hop; 'bad, inferior'.",5
+VULGUS-013,13,millennial,Millennial slang,Medium,TRIPPIN / CLUSTER / POGUE / DINGBAT,1960s US drug slang → 1990s hip-hop; 'acting irrationally'.,9
+VULGUS-013,13,old-school,Old-school American slang,Medium,PALOOKA / YAHOO / KOOK / DOOZY,1920s US boxing slang — a mediocre fighter; origin disputed.,10
+VULGUS-014,14,west-mild,Old Western mild exclamations,Easy,DAGNABBIT / JIMINY / SAKES / CRIMINY,Ozark/Southern US minced form of 'God damn it'.,8
+VULGUS-014,14,west-hard,Old Western strong words,Trickiest,TARNATION / CONSARN / FIDDLE-FADDLE / CATTYWAMPUS,18th C US; blend of 'eternal' and 'damnation'.,8
+VULGUS-014,14,frontier,Frontier-era nonsense,Trickiest,HORSEFEATHERS / BUSHWA / FLAPDOODLE / HORNSWOGGLE,1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.,11
+VULGUS-014,14,frontier2,American pioneer slang,Medium,HUMBUG / BUNKUM / HOOEY / BALONEY,Mid-18th C; made famous by Dickens' Scrooge.,7
+VULGUS-015,15,bird-fools,Birds used as insults,Medium,DRONGO / GALAH / TURKEY / JACKASS,From an Australian racehorse (1920s) that never won; then bird → fool.,12
+VULGUS-015,15,animals2,Animal-named swears,Easy,PIG / RATS / COW / GOOBER,Derogatory use since 14th C.,5
+VULGUS-015,15,eponym2,Eponymous curiosities,Trickiest,NIMROD / CRAPPER / SNOLLYGOSTER / PALOOKA,Biblical hunter; inverted to 'fool' by Bugs Bunny's mocking use (1940s).,11
+VULGUS-015,15,us-mild2,Mild US words,Easy,DANG / HECK / CRUD / SHUCKS,Southern US minced form of 'damn'; 18th C.,8
+VULGUS-016,16,vict-easy,Easy Victorian words,Easy,FIDDLESTICKS / PHOOEY / CRIKEY / CRUMBS,From violin bows being flimsy and trivial; 17th C.,9
+VULGUS-016,16,vict-med,Victorian words for nonsense,Medium,TWADDLE / BUNKUM / CLAPTRAP / SCOUNDREL,"Late 18th C, from 'twattle' (prattle).",6
+VULGUS-016,16,vict-hard,Victorian-era strong words,Hard,BOLLOCKS / ARSE / KNACKERS / WANKER,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-016,16,vict-obs,Victorian obscurities,Trickiest,SNOLLYGOSTER / MOUNTEBANK / RAPSCALLION / VARLET,"19th C US — a shrewd, unprincipled politician.",8
+VULGUS-017,17,excl-easy,Everyday exclamations,Easy,SHUCKS / PHOOEY / RATS / DRAT,Originally 'husks of no value' → worthless → mild exclamation.,10
+VULGUS-017,17,excl-brit,British exclamations,Easy,BLIMEY / CRIKEY / CRUMBS / BUM,Contraction of 'God blind me!' — minced oath.,8
+VULGUS-017,17,excl-relig,Religious exclamations,Easy,GEE / GOSH / GOLLY / JEEZ,Clipped form of 'Jesus'; late 19th C US.,8
+VULGUS-017,17,excl-arch,Archaic exclamations,Trickiest,ZOUNDS / EGAD / GADZOOKS / TARNATION,Contraction of 'God's wounds' — 16th C oath.,8
+VULGUS-018,18,eponym3,Named after a real person,Trickiest,NIMROD / CRAPPER / SNOLLYGOSTER / MOUNTEBANK,Biblical hunter; inverted to 'fool' by Bugs Bunny's mocking use (1940s).,11
+VULGUS-018,18,rhyme,Rhyming slang (origin revealed),Hard,BERK / WANKER / PILLOCK / KNACKERS,Cockney rhyming slang: Berkshire Hunt → c**t. Most users don't know origin.,12
+VULGUS-018,18,scifi2,Invented for TV,Medium,FRAK / SMEG / FRELL / GORRAM,Battlestar Galactica (1978 / 2004) — invented profanity.,8
+VULGUS-018,18,milit2,Military origin,Trickiest,SNAFU / FUBAR / BOHICA / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-019,19,g-rated,G-rated stand-ins,Easy,SUGAR / FUDGE / SHOOT / DARN,Stand-in for a stronger s-word; established 20th C.,8
+VULGUS-019,19,workplace,Workplace-safe words,Easy,HECK / DANG / CRUD / RECKON,Minced form of 'hell'; late 19th C.,7
+VULGUS-019,19,mild-us,Mild US expressions,Easy,JEEPERS / SAKES / JIMINY / DAGNABBIT,Euphemism for 'Jesus Christ'; 1920s US.,6
+VULGUS-019,19,soft-brit,Mild British expressions,Easy,SHUCKS / PHOOEY / RATS / CRUMBS,Originally 'husks of no value' → worthless → mild exclamation.,10
+VULGUS-020,20,brit-int,British intensifiers,Medium,BUGGER / BLOODY / DAMN / HELLFIRE,From Medieval Latin 'Bulgarus' — referring to heretical Bulgarian sect; meaning shifted through centuries.,14
+VULGUS-020,20,us-int,American intensifiers,Easy,WICKED / HECK / DANG / CRUD,New England intensifier ('wicked good'); regional since 19th C.,9
+VULGUS-020,20,slang-int,Slang intensifiers,Easy,BOGUS / WACK / JANKY / SALTY,"1790s US counterfeit coins; 'fake, bad'.",6
+VULGUS-020,20,archaic-int,Archaic intensifiers,Trickiest,TARNATION / CONSARN / ZOUNDS / EGAD,18th C US; blend of 'eternal' and 'damnation'.,8
+VULGUS-021,21,south-mild,Southern US mild words,Easy,DAGNABBIT / SAKES / CRIMINY / JIMINY,Ozark/Southern US minced form of 'God damn it'.,8
+VULGUS-021,21,south-hard,Southern US strong words,Trickiest,TARNATION / CONSARN / CATTYWAMPUS / FIDDLE-FADDLE,18th C US; blend of 'eternal' and 'damnation'.,8
+VULGUS-021,21,south-non,Southern nonsense words,Trickiest,HORSEFEATHERS / BUSHWA / FLAPDOODLE / HORNSWOGGLE,1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.,11
+VULGUS-021,21,south-sl,Southern slang for fool,Medium,DINGBAT / DIPSTICK / PALOOKA / LUNKHEAD,Late 19th C US; popularised by Archie Bunker ('All in the Family').,12
+VULGUS-022,22,surprise1,Words that started as body parts,Medium,PILLOCK / PLONKER / DORK / DIPSTICK,Originally northern English for penis; meaning 'fool' from mid-20th C.,10
+VULGUS-022,22,surprise2,Words from places,Medium,BUNKUM / BOGAN / POGUE / YAHOO,"From Buncombe County, NC — a congressman's 1820 tedious speech.",10
+VULGUS-022,22,surprise3,Words from animals,Easy,NIMROD / DRONGO / GALAH / TURKEY,Biblical hunter; inverted to 'fool' by Bugs Bunny's mocking use (1940s).,11
+VULGUS-022,22,surprise4,Words from fiction,Medium,FRAK / SMEG / FRELL / GORRAM,Battlestar Galactica (1978 / 2004) — invented profanity.,8
+VULGUS-023,23,anat-r,Strong anatomy-based words,Hard,BOLLOCKS / KNACKERS / WANKER / SCHMUCK,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-023,23,anat-b,Medium anatomy-based words,Medium,PILLOCK / PLONKER / BERK / PUTZ,Originally northern English for penis; meaning 'fool' from mid-20th C.,10
+VULGUS-023,23,anat-y,Mild anatomy-based words,Easy,BUM / DORK / DIPSTICK / NUMPTY,Dates to 14th C Middle English — probably onomatopoeic.,9
+VULGUS-023,23,anat-dis,Anatomy-disguised words,Medium,GOBSHITE / JACKASS / COW / BOGAN,Irish slang: 'gob' (mouth) + 'shite'; someone who talks nonsense.,10
+VULGUS-024,24,bant-y,Entry-level British,Easy,MUPPET / WALLY / TWIT / NITWIT,1980s UK slang from Jim Henson's Muppets; gentle insult.,9
+VULGUS-024,24,bant-b,Mid-level British,Medium,PLONKER / NUMPTY / PILLOCK / BUGGER,Originally slang for penis (1940s); meaning 'fool' from 1980s sitcoms.,10
+VULGUS-024,24,bant-r,Strong British,Hard,BOLLOCKS / ARSE / BERK / KNACKERS,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-024,24,bant-k,Shakespearean British,Trickiest,VARLET / KNAVE / RAPSCALLION / SCOUNDREL,Medieval: a knight's attendant → rogue by 16th C.,9
+VULGUS-025,25,rogues-k,Shakespearean rogues,Trickiest,VARLET / KNAVE / RAPSCALLION / MOUNTEBANK,Medieval: a knight's attendant → rogue by 16th C.,9
+VULGUS-025,25,rogues-b,Victorian rogues,Medium,SCOUNDREL / YAHOO / BOGAN / COW,Origin disputed; 16th C.,4
+VULGUS-025,25,rogues-r,Ruder rogues,Hard,WANKER / GOBSHITE / BERK / SCHMUCK,Anatomical origin; 'wank' dates to 1940s British slang — strong insult in UK and AU.,15
+VULGUS-025,25,rogues-y,Gentler rogues,Easy,MUPPET / WALLY / TURKEY / NIMROD,1980s UK slang from Jim Henson's Muppets; gentle insult.,9
+VULGUS-026,26,rub-y,G-rated rubbish words,Easy,FIDDLESTICKS / HOOEY / HOGWASH / RATS,From violin bows being flimsy and trivial; 17th C.,9
+VULGUS-026,26,rub-v,Victorian rubbish,Medium,HUMBUG / BUNKUM / TWADDLE / CLAPTRAP,Mid-18th C; made famous by Dickens' Scrooge.,7
+VULGUS-026,26,rub-a,American rubbish,Medium,MALARKEY / BALONEY / COCKAMAMIE / BUBKES,1920s US; origin disputed — possibly from Irish surname.,9
+VULGUS-026,26,rub-k,Archaic rubbish,Trickiest,HORSEFEATHERS / BUSHWA / FLAPDOODLE / HORNSWOGGLE,1920s US; coined by cartoonist Billy DeBeck as a minced euphemism.,11
+VULGUS-027,27,misc-y,Friendly miscreants,Easy,DOOFUS / WALLY / NIMROD / TURKEY,1960s US campus slang; origin uncertain.,6
+VULGUS-027,27,misc-b,Medium miscreants,Medium,YAHOO / JACKASS / DINGBAT / DIPSTICK,"Coined by Jonathan Swift (Gulliver's Travels, 1726); US sense: boorish person.",11
+VULGUS-027,27,misc-r,Ruder miscreants,Hard,SCHMUCK / PUTZ / BERK / GOBSHITE,From Yiddish 'shmok' — penis; Yiddish origin keeps it strong in-community.,11
+VULGUS-027,27,misc-k,Archaic miscreants,Trickiest,SNOLLYGOSTER / MOUNTEBANK / RAPSCALLION / VARLET,"19th C US — a shrewd, unprincipled politician.",8
+VULGUS-028,28,pan-mild,Mild pan-American slang,Easy,GOOBER / KLUTZ / KOOK / DWEEB,From Gullah for 'peanut'; as 'fool' chiefly US Southern 20th C.,11
+VULGUS-028,28,pan-med,Medium American slang,Medium,SCHMUCK / PUTZ / BONEHEAD / MEATHEAD,From Yiddish 'shmok' — penis; Yiddish origin keeps it strong in-community.,11
+VULGUS-028,28,pan-mod,Modern American slang,Easy,BOGUS / SALTY / BUSTED / SHOOK,"1790s US counterfeit coins; 'fake, bad'.",6
+VULGUS-028,28,pan-mil,Military-origin slang,Trickiest,SNAFU / FUBAR / BOHICA / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-029,29,arch-shake,Shakespearean vocabulary,Trickiest,ZOUNDS / EGAD / GADZOOKS / VARLET,Contraction of 'God's wounds' — 16th C oath.,8
+VULGUS-029,29,arch-vict,Victorian vocabulary,Medium,HUMBUG / CODSWALLOP / POPPYCOCK / BALDERDASH,Mid-18th C; made famous by Dickens' Scrooge.,7
+VULGUS-029,29,arch-front,Frontier vocabulary,Trickiest,TARNATION / CONSARN / SNOLLYGOSTER / CATTYWAMPUS,18th C US; blend of 'eternal' and 'damnation'.,8
+VULGUS-029,29,arch-mil,Old military vocabulary,Trickiest,SNAFU / FUBAR / BOHICA / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-030,30,fin-brit,Best British,Hard,BOLLOCKS / ARSE / BLIMEY / CRIKEY,Old English 'beallucas' (testicles); by the 1860s meant 'nonsense'; Sex Pistols 1977.,12
+VULGUS-030,30,fin-us,Best American,Medium,MALARKEY / BALONEY / COCKAMAMIE / BUBKES,1920s US; origin disputed — possibly from Irish surname.,9
+VULGUS-030,30,fin-arch,Best archaic,Trickiest,ZOUNDS / EGAD / HORSEFEATHERS / SNOLLYGOSTER,Contraction of 'God's wounds' — 16th C oath.,8
+VULGUS-030,30,fin-fools,Best words for fools,Easy,MUPPET / WALLY / DOOFUS / NUMPTY,1980s UK slang from Jim Henson's Muppets; gentle insult.,9
+VULGUS-031,31,holy,"""Holy ___"" surprises",Easy,HOLY COW / HOLY MOLY / HOLY SMOKES / HOLY MACKEREL,"American euphemisms for ""holy sh*t"" — religious taboo avoidance via animal/marine swap-ins.",12
+VULGUS-031,31,minced-jesus,"Minced ""Jesus""",Medium,GEE / GOLLY / JEEPERS / JIMINY,Clipped form of 'Jesus'; late 19th C US.,8
+VULGUS-031,31,archaic-brit,Archaic British oaths,Hard,EGAD / ZOUNDS / GADZOOKS / CRIPES,Euphemism for 'Oh God'; 17th C.,6
+VULGUS-031,31,southern-oaths,Southern US oaths,Trickiest,DAGNABBIT / TARNATION / CRIMINY / SAKES,Ozark/Southern US minced form of 'God damn it'.,8
+VULGUS-032,32,food-sub,Food-based substitutes,Easy,SUGAR / FUDGE / PEANUT / GOOBER,American tradition: swap a sweary word for a food-word of roughly the same shape.,14
+VULGUS-032,32,mild-us,Mild American stand-ins,Medium,SHOOT / DANG / DARN / HECK,American euphemism for s-word; 19th C onwards.,7
+VULGUS-032,32,scifi,Made-up swears,Hard,FRAK / SMEG / DOOZY / GORRAM,"Invented to sound sweary without being sweary — some from TV, others just creative linguistic dodges.",16
+VULGUS-032,32,elaborate,Elaborate avoidances,Trickiest,FIDDLE-FADDLE / FIDDLESTICKS / BUSHWA / HORSEFEATHERS,"The longer the euphemism, the further from the actual swear — Victorian-style padding.",13
+VULGUS-033,33,brit-fool,British fools,Easy,WALLY / PILLOCK / PLONKER / MUPPET,1960s UK slang; disputed origin — possibly from 'Walter'.,9
+VULGUS-033,33,us-fool,American fools,Medium,DOOFUS / DINGBAT / DIPSTICK / KLUTZ,1960s US campus slang; origin uncertain.,6
+VULGUS-033,33,aus-fool,Australian fools,Hard,DRONGO / GALAH / BOGAN / PALOOKA,"Australian English, often drawn from native bird names or anglicised imports.",11
+VULGUS-033,33,celtic-fool,Celtic fools,Trickiest,EEJIT / BAMPOT / NUMPTY / GOBSHITE,Hiberno-English rendering of 'idiot'.,4
+VULGUS-034,34,animal,Animal-based insults,Easy,COW / PIG / JACKASS / DRONGO,"When you want to call someone an animal, pick one.",10
+VULGUS-034,34,archaic,Rogues & rascals,Medium,VARLET / KNAVE / SCOUNDREL / POGUE,Medieval: a knight's attendant → rogue by 16th C.,9
+VULGUS-034,34,yiddish,Yiddish-origin contempt,Hard,SCHMUCK / PUTZ / NIMROD / YAHOO,American English loanwords — Yiddish immigrant communities and Swiftian coinages.,10
+VULGUS-034,34,us-political,Political scoundrels,Trickiest,SNOLLYGOSTER / MOUNTEBANK / CRAPPER / BOHICA,"American political English: from the 19th C ""snollygoster"" onward, a rich tradition.",12
+VULGUS-035,35,short-rot,Blunt rubbish,Easy,TOSH / HOGWASH / HOOEY / CRUD,19th C slang for rubbish; origin disputed.,7
+VULGUS-035,35,vic-rot,Victorian rubbish,Medium,POPPYCOCK / BALDERDASH / CODSWALLOP / CLAPTRAP,"From Dutch 'pappekak' — soft dung. Polite now, very rude in origin.",12
+VULGUS-035,35,us-rot,American rubbish,Hard,MALARKEY / BALONEY / BUBKES / BUNKUM,1920s US; origin disputed — possibly from Irish surname.,9
+VULGUS-035,35,frontier-rot,Frontier nonsense,Trickiest,FLAPDOODLE / HORNSWOGGLE / CATTYWAMPUS / COCKAMAMIE,"Mid-19th C US; nonsense, drivel.",5
+VULGUS-036,36,anatomy,Anatomical swears,Easy,ARSE / BUM / BOLLOCKS / KNACKERS,"Old English 'ærs' — cognate with Dutch 'aars', German 'Arsch'.",10
+VULGUS-036,36,body-euph,Body-part euphemisms,Medium,DORK / DIPSTICK / PILLOCK / SCHMUCK,"All four originate as slang for anatomy before shifting to ""idiot.""",11
+VULGUS-036,36,head-comp,Head compounds,Hard,BONEHEAD / MEATHEAD / LUNKHEAD / KNUCKLEHEAD,1903 US baseball slang; popularised by Fred Merkle's 'boner' play.,10
+VULGUS-036,36,hard-body,Strong body-origin words,Trickiest,WANKER / BUGGER / BERK / CRAPPER,"All four trace to anatomy or bodily acts, now varying in sting.",12
+VULGUS-037,37,eponyms,Named after people/places,Easy,BUNKUM / NIMROD / CRAPPER / MOUNTEBANK,"""Bunkum"" — Buncombe County NC; ""Nimrod"" — biblical hunter; ""Crapper"" — Thomas Crapper the plumber; ""mountebank"" — Italian ""monta in banco"" (climb on a bench).",25
+VULGUS-037,37,scifi-coin,Coinages & inventions,Medium,FRAK / SMEG / CRUD / GORRAM,"Words coined or repurposed to fill the sweary gap — some from TV, one from good old English.",18
+VULGUS-037,37,animal-insult,Animal-name insults,Hard,GALAH / TURKEY / BOGAN / BOGUS,"""Galah"" — a pink cockatoo; ""turkey"" — the country; ""bogan"" — possibly from Bogan River; ""bogus"" — origin obscure.",19
+VULGUS-037,37,us-coin,American coinages,Trickiest,SNOLLYGOSTER / COCKAMAMIE / MALARKEY / BALONEY,19th – 20th C American English inventions of uncertain etymology.,10
+VULGUS-038,38,yiddish,From Yiddish,Easy,SCHMUCK / PUTZ / KLUTZ / BUBKES,"Yiddish-origin American English: ""shmok"" (penis), ""pots"" (penis), ""klots"" (block of wood), ""beytsim"" (eggs).",13
+VULGUS-038,38,celtic,From Irish/Scots Gaelic,Medium,EEJIT / BAMPOT / FECKIN / NUMPTY,Hiberno-English rendering of 'idiot'.,4
+VULGUS-038,38,vic-brit,Victorian British,Hard,POPPYCOCK / CODSWALLOP / BALDERDASH / TWADDLE,"From Dutch 'pappekak' — soft dung. Polite now, very rude in origin.",12
+VULGUS-038,38,mil-acr,Military acronyms,Trickiest,SNAFU / FUBAR / BOHICA / CHARLIE FOXTROT,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-039,39,midwest,Regional Americana,Easy,OPE / RECKON / UFF DA / DON\,"Distinct regional Americanisms — Midwest ""ope,"" Southern ""reckon,"" Scandinavian-American ""uff da,"" Minnesotan ""don't cha know.""",15
+VULGUS-039,39,southern-oath,Southern oaths,Medium,DAGNABBIT / TARNATION / CONSARN / CRIMINY,Ozark/Southern US minced form of 'God damn it'.,8
+VULGUS-039,39,frontier,Frontier imagery,Hard,HOG-TIED / HORNSWOGGLE / CATTYWAMPUS / COCKAMAMIE,"Cowboy origin — to tie a hog's legs; 'stuck, restrained'.",10
+VULGUS-039,39,southern-phrase,Southern phrases,Trickiest,BLESS YOUR HEART / HEAVENS TO BETSY / MERCY ME / CHEESE AND RICE,"Southern US phrases — politeness, shock, and passive aggression in roughly equal measure.",13
+VULGUS-040,40,mil-acr,Military acronyms,Easy,SNAFU / FUBAR / POGUE / TARFU,"WWII US military acronym: Situation Normal, All F***ed Up.",9
+VULGUS-040,40,mil-mess,Military words for a mess,Medium,GOAT ROPE / CHARLIE FOXTROT / SAD SACK / CLUSTER,"US military slang — a ""goat rope"" or ""charlie foxtrot"" is a chaotic operation; a ""sad sack"" is the unfortunate soul stuck in it.",24
+VULGUS-040,40,modern-fail,Modern slang,Hard,WACK / JANKY / BUSTED / CRUD,"1980s US hip-hop; 'bad, inferior'.",5
+VULGUS-040,40,emo-state,Emotional-state slang,Trickiest,SALTY / SHOOK / TRIPPIN / DISS,2010s US internet slang; 'bitter or resentful'. Earlier Navy slang too.,11
+VULGUS-041,41,strong-brit,Classic strong British,Easy,BLOODY / BUGGER / ARSE / BOLLOCKS,Likely from 'by our Lady'; disputed. Mild UK intensifier.,9
+VULGUS-041,41,ptier-brit,Top-shelf British,Medium,WANKER / GOBSHITE / KNACKERS / COW,The sharper end of British vocabulary.,6
+VULGUS-041,41,celtic-strong,Celtic strength,Hard,FECKIN / EEJIT / BAMPOT / GORRAM,"Irish/Scots minced swears — ""feckin"" is the Irish ""f***ing"" substitute.",10
+VULGUS-041,41,intensifiers,American intensifiers,Trickiest,DAMN / HELLFIRE / BEJESUS / WICKED,From Old French 'damner' → to condemn; softened to a general intensifier.,12
+VULGUS-042,42,heads,The -HEAD crew,Easy,BONEHEAD / MEATHEAD / CHUCKLEHEAD / KNUCKLEHEAD,1903 US baseball slang; popularised by Fred Merkle's 'boner' play.,10
+VULGUS-042,42,nerdy,Nerdy fools,Medium,DORK / DWEEB / GOOBER / KOOK,"1960s US; originally slang for penis, now chiefly 'fool'.",9
+VULGUS-042,42,us-crossover,American fools,Hard,DINGBAT / DIPSTICK / DOOFUS / NUMPTY,Late 19th C US; popularised by Archie Bunker ('All in the Family').,12
+VULGUS-042,42,brit-idiot,"British ""idiot"" words",Trickiest,NITWIT / TWIT / WALLY / PLONKER,"1920s, from 'nit' (nothing) + wit.",6
+VULGUS-043,43,mil-mess,Military-grade chaos,Easy,SNAFU / CLUSTER / GOAT ROPE / CHARLIE FOXTROT,US military slang for operations that have gone sideways.,9
+VULGUS-043,43,people-mess,People in a mess,Medium,SAD SACK / POGUE / PALOOKA / YAHOO,WWII cartoon by George Baker; 'a hapless loser'.,8
+VULGUS-043,43,internet-fail,Internet-age slang,Hard,WACK / SHOOK / BUSTED / BOGUS,"1980s US hip-hop; 'bad, inferior'.",5
+VULGUS-043,43,old-mess,Old-school chaos,Trickiest,BALDERDASH / HOG-TIED / COCKAMAMIE / HORNSWOGGLE,Originally 16th C for a frothy drink; meaning 'nonsense' by 17th C.,12
+VULGUS-044,44,gen-z,Gen-Z disapproval,Easy,WACK / JANKY / SALTY / SHOOK,"1980s US hip-hop; 'bad, inferior'.",5
+VULGUS-044,44,internet,Internet-era verbs,Medium,TRIPPIN / DISS / BUSTED / BOGUS,1960s US drug slang → 1990s hip-hop; 'acting irrationally'.,9
+VULGUS-044,44,regional,Regional curios,Hard,OPE / RECKON / WICKED / HOG-TIED,"Distinct regional US speech markers — Midwest ""ope,"" Southern ""reckon,"" Bostonian ""wicked,"" Western ""hog-tied.""",14
+VULGUS-044,44,us-phrases,US exclamation phrases,Trickiest,"GEEZ LOUISE / SON OF A GUN / FOR PETE\ / ,  / LL BE","Full-phrase American mild swears — rhyming, quasi-religious, or just long enough to be safe.",14
+VULGUS-045,45,short-mild,Short & mild,Easy,DRAT / RATS / DANG / CRUD,Contraction of 'od rot' — mild minced oath.,8
+VULGUS-045,45,exclam,Exclamations,Medium,SHUCKS / PHOOEY / GOLLY / GOSH,Originally 'husks of no value' → worthless → mild exclamation.,10
+VULGUS-045,45,brit-mild,British mild,Hard,CRIKEY / BLIMEY / CRIPES / EGAD,Minced oath — euphemism for 'Christ'.,6
+VULGUS-045,45,jesus-mild,Jesus-derived mild,Trickiest,JEEPERS / GEE / JIMINY / BEJESUS,Euphemism for 'Jesus Christ'; 1920s US.,6
+VULGUS-046,46,pub-swear,Pub swears,Easy,BUGGER / BLOODY / BLIMEY / CRIKEY,From Medieval Latin 'Bulgarus' — referring to heretical Bulgarian sect; meaning shifted through centuries.,14
+VULGUS-046,46,pub-body,Pub anatomy,Medium,ARSE / CRAPPER / KNACKERS / BOLLOCKS,"Old English 'ærs' — cognate with Dutch 'aars', German 'Arsch'.",10
+VULGUS-046,46,pub-idiot,Pub words for idiot,Hard,NUMPTY / WALLY / PLONKER / PILLOCK,"Scots, late 20th C; origin uncertain — possibly from 'numps' (fool).",11
+VULGUS-046,46,pub-strong,Pub strong words,Trickiest,WANKER / GOBSHITE / BOGAN / BERK,"Strong insult in UK/AU; anatomical origin. Medium in AU, stronger in UK.",12
+VULGUS-047,47,us-nerd,US nerd insults,Easy,KOOK / NIMROD / DWEEB / DORK,1950s US surfer/beatnik slang; 'crazy person'.,6
+VULGUS-047,47,us-fool2,US fools,Medium,DOOFUS / DINGBAT / DIPSTICK / PALOOKA,1960s US campus slang; origin uncertain.,6
+VULGUS-047,47,us-animal,US animal insults,Hard,TURKEY / JACKASS / PIG / COW,1950s US; a flop or a fool.,7
+VULGUS-047,47,us-dismiss,US dismissals,Trickiest,BOGUS / POGUE / SAD SACK / CLUSTER,"1790s US counterfeit coins; 'fake, bad'.",6
+VULGUS-048,48,arch-oath,Archaic oaths,Easy,ZOUNDS / GADZOOKS / EGAD / CONSARN,Contraction of 'God's wounds' — 16th C oath.,8
+VULGUS-048,48,arch-villain,Archaic villains,Medium,VARLET / KNAVE / SCOUNDREL / MOUNTEBANK,Medieval: a knight's attendant → rogue by 16th C.,9
+VULGUS-048,48,vic-rot,Victorian rubbish,Hard,POPPYCOCK / BALDERDASH / TWADDLE / HUMBUG,"From Dutch 'pappekak' — soft dung. Polite now, very rude in origin.",12
+VULGUS-048,48,arch-us,Archaic Americana,Trickiest,SNOLLYGOSTER / CATTYWAMPUS / HORNSWOGGLE / FLAPDOODLE,"19th C US — a shrewd, unprincipled politician.",8
+VULGUS-049,49,mild-one,Mild one-worders,Easy,DARN / DRAT / RATS / SHUCKS,"The softest of the soft — safe for grandma, the office, and live television.",14
+VULGUS-049,49,us-excl,American exclamation phrases,Medium,"GEEZ LOUISE / FOR CRYIN\ / ,  / ,  / LL BE",Multi-word American phrases — each a long detour around something shorter and stronger.,13
+VULGUS-049,49,southern-send,Southern send-offs,Hard,BLESS YOUR HEART / HEAVENS TO BETSY / MERCY ME / TARNATION,"Southern US: politeness, shock, and passive aggression in roughly equal measure.",11
+VULGUS-049,49,midwest-mark,Midwest markers,Trickiest,"UFF DA / DON\ / ,  / , ","Scandinavian-American ""uff da,"" Minnesotan ""don't cha know,"" and the universal Midwest ""ope.""",12
+VULGUS-050,50,classics,British classics,Easy,BLOODY / BLIMEY / ARSE / BUGGER,Likely from 'by our Lady'; disputed. Mild UK intensifier.,9
+VULGUS-050,50,us-classics,American classics,Medium,DAMN / HECK / CRAP / DANG,From Old French 'damner' → to condemn; softened to a general intensifier.,12
+VULGUS-050,50,phrase-classics,Full-phrase swears,Hard,HOLY MACKEREL / SON OF A GUN / BLESS YOUR HEART / GOAT ROPE,Multi-word American idioms that each stand in for something shorter and sharper.,12
+VULGUS-050,50,archaic,The archaics,Trickiest,ZOUNDS / VARLET / SNOLLYGOSTER / BUSHWA,Contraction of 'God's wounds' — 16th C oath.,8
