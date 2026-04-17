@@ -16,7 +16,15 @@ vulgus/
 ├── docs/
 │   └── VULGUS_GDD_v0.1.docx              ← Game Design Document
 ├── dictionary/
-│   └── VULGUS_Dictionary_v0.1.xlsx       ← Curated word list (147 words, 25 categories)
+│   ├── vulgus_lexicon.json               ← CANONICAL lexicon (schema v0.2)
+│   ├── VULGUS_Dictionary_v0.1.xlsx       ← legacy, read-only reference
+│   ├── VULGUS_Dictionary_v0.2.xlsx       ← generated review artefact
+│   └── curation/                          ← hand-authored definitions/PoS
+├── scripts/
+│   ├── migrate_lexicon.py                 ← v0.1 xlsx → v0.2 JSON (one-time)
+│   ├── build_xlsx.py                      ← v0.2 JSON → v0.2 xlsx
+│   ├── generate_puzzles.py                ← xlsx → dart puzzle files
+│   └── export_etymologies.py              ← dart files → CSV
 └── prototype/
     └── index.html                         ← Playable single-file web prototype
 ```
@@ -36,7 +44,7 @@ No build step, no install — it's self-contained with Tailwind via CDN.
 ## What's built
 
 - **GDD (Word doc).** 11 sections covering gameplay, content/filtering strategy, Bauhaus visual system, monetisation, MVP scope, and risks.
-- **Dictionary (Excel).** 147 pre-reviewed words across 25 categories (British Swears, Soft Swears, Minced Oaths, Words for Nonsense, Sci-Fi Fictional Swears, Eponymous Swears, etc.). Dropdowns enforce a controlled vocabulary. Conditional formatting shows ship status and severity at a glance. Live Stats sheet.
+- **Dictionary (JSON + Excel).** 147 pre-reviewed words across 23 categories, now with length, part-of-speech, plain-English definition, first-attested year, register, flat tag set, Wordle-eligibility flag, and licence metadata per entry. Canonical source is `dictionary/vulgus_lexicon.json`; the v0.2 xlsx is regenerated from the JSON. Schema designed to be portable to other word games (e.g. Wordle, crossword, trivia).
 - **Prototype (HTML).** One playable puzzle with 16 tiles, category-colour solve banners, a live etymology strip under the grid, 4-lives mechanic, "one away" nudge, and a Bauhaus-shape share grid.
 
 ## Design pillars
