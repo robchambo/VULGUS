@@ -38,9 +38,9 @@ PUZZLES = [
          'American tradition: swap a sweary word for a food-word of roughly the same shape.'),
         ('mild-us', 'Mild American stand-ins', 'B',
          ['SHOOT', 'DANG', 'DARN', 'HECK'], None),
-        ('scifi', 'Broadcast-safe sci-fi', 'R',
-         ['FRAK', 'SMEG', 'FRELL', 'GORRAM'],
-         'Sci-fi writers invented these to swear on air without censors — Battlestar, Red Dwarf, Farscape, Firefly.'),
+        ('scifi', 'Made-up swears', 'R',
+         ['FRAK', 'SMEG', 'DOOZY', 'GORRAM'],
+         'Invented to sound sweary without being sweary — some from TV, others just creative linguistic dodges.'),
         ('elaborate', 'Elaborate avoidances', 'K',
          ['FIDDLE-FADDLE', 'FIDDLESTICKS', 'BUSHWA', 'HORSEFEATHERS'],
          'The longer the euphemism, the further from the actual swear — Victorian-style padding.'),
@@ -60,8 +60,8 @@ PUZZLES = [
         ('animal', 'Animal-based insults', 'Y',
          ['COW', 'PIG', 'JACKASS', 'DRONGO'],
          'When you want to call someone an animal, pick one.'),
-        ('archaic', 'Archaic villains', 'B',
-         ['VARLET', 'KNAVE', 'SCOUNDREL', 'RAPSCALLION'], None),
+        ('archaic', 'Rogues & rascals', 'B',
+         ['VARLET', 'KNAVE', 'SCOUNDREL', 'POGUE'], None),
         ('yiddish', 'Yiddish-origin contempt', 'R',
          ['SCHMUCK', 'PUTZ', 'NIMROD', 'YAHOO'],
          'American English loanwords — Yiddish immigrant communities and Swiftian coinages.'),
@@ -95,9 +95,9 @@ PUZZLES = [
         ('eponyms', 'Named after people/places', 'Y',
          ['BUNKUM', 'NIMROD', 'CRAPPER', 'MOUNTEBANK'],
          '"Bunkum" — Buncombe County NC; "Nimrod" — biblical hunter; "Crapper" — Thomas Crapper the plumber; "mountebank" — Italian "monta in banco" (climb on a bench).'),
-        ('scifi-coin', 'Fictional TV coinages', 'B',
-         ['FRAK', 'SMEG', 'FRELL', 'GORRAM'],
-         'All four were invented specifically to sound sweary without BBC/US broadcast-regulator pushback.'),
+        ('scifi-coin', 'Coinages & inventions', 'B',
+         ['FRAK', 'SMEG', 'CRUD', 'GORRAM'],
+         'Words coined or repurposed to fill the sweary gap — some from TV, one from good old English.'),
         ('animal-insult', 'Animal-name insults', 'R',
          ['GALAH', 'TURKEY', 'BOGAN', 'BOGUS'],
          '"Galah" — a pink cockatoo; "turkey" — the country; "bogan" — possibly from Bogan River; "bogus" — origin obscure.'),
@@ -114,7 +114,7 @@ PUZZLES = [
         ('vic-brit', 'Victorian British', 'R',
          ['POPPYCOCK', 'CODSWALLOP', 'BALDERDASH', 'TWADDLE'], None),
         ('mil-acr', 'Military acronyms', 'K',
-         ['SNAFU', 'FUBAR', 'BOHICA', 'TARFU'], None),
+         ['SNAFU', 'FUBAR', 'BOHICA', 'CHARLIE FOXTROT'], None),
     ]),
     (39, 'Down South', [
         ('midwest', 'Regional Americana', 'Y',
@@ -130,12 +130,12 @@ PUZZLES = [
     ]),
     (40, 'Goat Rope', [
         ('mil-acr', 'Military acronyms', 'Y',
-         ['SNAFU', 'FUBAR', 'BOHICA', 'TARFU'], None),
+         ['SNAFU', 'FUBAR', 'POGUE', 'TARFU'], None),
         ('mil-mess', 'Military words for a mess', 'B',
          ['GOAT ROPE', 'CHARLIE FOXTROT', 'SAD SACK', 'CLUSTER'],
          'US military slang — a "goat rope" or "charlie foxtrot" is a chaotic operation; a "sad sack" is the unfortunate soul stuck in it.'),
-        ('modern-fail', 'Modern words for fail', 'R',
-         ['WACK', 'JANKY', 'BUSTED', 'BOGUS'], None),
+        ('modern-fail', 'Modern slang', 'R',
+         ['WACK', 'JANKY', 'BUSTED', 'CRUD'], None),
         ('emo-state', 'Emotional-state slang', 'K',
          ['SALTY', 'SHOOK', 'TRIPPIN', 'DISS'], None),
     ]),
@@ -153,11 +153,11 @@ PUZZLES = [
     ]),
     (42, 'Name That Fool', [
         ('heads', 'The -HEAD crew', 'Y',
-         ['BONEHEAD', 'MEATHEAD', 'LUNKHEAD', 'CHUCKLEHEAD'], None),
+         ['BONEHEAD', 'MEATHEAD', 'CHUCKLEHEAD', 'KNUCKLEHEAD'], None),
         ('nerdy', 'Nerdy fools', 'B',
          ['DORK', 'DWEEB', 'GOOBER', 'KOOK'], None),
         ('us-crossover', 'American fools', 'R',
-         ['DINGBAT', 'DIPSTICK', 'DOOFUS', 'KLUTZ'], None),
+         ['DINGBAT', 'DIPSTICK', 'DOOFUS', 'NUMPTY'], None),
         ('brit-idiot', 'British "idiot" words', 'K',
          ['NITWIT', 'TWIT', 'WALLY', 'PLONKER'], None),
     ]),
@@ -167,10 +167,10 @@ PUZZLES = [
          'US military slang for operations that have gone sideways.'),
         ('people-mess', 'People in a mess', 'B',
          ['SAD SACK', 'POGUE', 'PALOOKA', 'YAHOO'], None),
-        ('internet-fail', 'Internet-age fail', 'R',
-         ['WACK', 'JANKY', 'BUSTED', 'BOGUS'], None),
+        ('internet-fail', 'Internet-age slang', 'R',
+         ['WACK', 'SHOOK', 'BUSTED', 'BOGUS'], None),
         ('old-mess', 'Old-school chaos', 'K',
-         ['CATTYWAMPUS', 'HOG-TIED', 'COCKAMAMIE', 'HORNSWOGGLE'], None),
+         ['BALDERDASH', 'HOG-TIED', 'COCKAMAMIE', 'HORNSWOGGLE'], None),
     ]),
     (44, 'The Swerve', [
         ('gen-z', 'Gen-Z disapproval', 'Y',
@@ -198,7 +198,7 @@ PUZZLES = [
         ('pub-swear', 'Pub swears', 'Y',
          ['BUGGER', 'BLOODY', 'BLIMEY', 'CRIKEY'], None),
         ('pub-body', 'Pub anatomy', 'B',
-         ['ARSE', 'BUM', 'KNACKERS', 'BOLLOCKS'], None),
+         ['ARSE', 'CRAPPER', 'KNACKERS', 'BOLLOCKS'], None),
         ('pub-idiot', 'Pub words for idiot', 'R',
          ['NUMPTY', 'WALLY', 'PLONKER', 'PILLOCK'], None),
         ('pub-strong', 'Pub strong words', 'K',
@@ -206,7 +206,7 @@ PUZZLES = [
     ]),
     (47, 'Trash Talk', [
         ('us-nerd', 'US nerd insults', 'Y',
-         ['KOOK', 'GOOBER', 'DWEEB', 'DORK'], None),
+         ['KOOK', 'NIMROD', 'DWEEB', 'DORK'], None),
         ('us-fool2', 'US fools', 'B',
          ['DOOFUS', 'DINGBAT', 'DIPSTICK', 'PALOOKA'], None),
         ('us-animal', 'US animal insults', 'R',
@@ -216,24 +216,27 @@ PUZZLES = [
     ]),
     (48, 'Old-Fashioned', [
         ('arch-oath', 'Archaic oaths', 'Y',
-         ['ZOUNDS', 'GADZOOKS', 'EGAD', 'CRIPES'], None),
+         ['ZOUNDS', 'GADZOOKS', 'EGAD', 'CONSARN'], None),
         ('arch-villain', 'Archaic villains', 'B',
-         ['VARLET', 'KNAVE', 'RAPSCALLION', 'MOUNTEBANK'], None),
+         ['VARLET', 'KNAVE', 'SCOUNDREL', 'MOUNTEBANK'], None),
         ('vic-rot', 'Victorian rubbish', 'R',
          ['POPPYCOCK', 'BALDERDASH', 'TWADDLE', 'HUMBUG'], None),
         ('arch-us', 'Archaic Americana', 'K',
          ['SNOLLYGOSTER', 'CATTYWAMPUS', 'HORNSWOGGLE', 'FLAPDOODLE'], None),
     ]),
-    (49, 'Son of a Gun', [
-        ('holy-phrase', '"Holy ___" quartet', 'Y',
-         ['HOLY COW', 'HOLY MOLY', 'HOLY SMOKES', 'HOLY MACKEREL'], None),
-        ('us-phrase', 'US exclamation phrases', 'B',
-         ['SON OF A GUN', 'FOR PETE\'S SAKE', 'FOR CRYIN\' OUT LOUD', 'GEEZ LOUISE'],
-         'Mid-20th C American full-phrase mild swears — each a many-word detour around something shorter and stronger.'),
-        ('southern-phrase', 'Southern phrases', 'R',
-         ['BLESS YOUR HEART', 'HEAVENS TO BETSY', 'MERCY ME', 'CHEESE AND RICE'], None),
-        ('midwest-phrase', 'Midwest markers', 'K',
-         ['UFF DA', 'DON\'T CHA KNOW', 'OPE', 'RECKON'], None),
+    (49, 'Parting Shot', [
+        ('mild-one', 'Mild one-worders', 'Y',
+         ['DARN', 'DRAT', 'RATS', 'SHUCKS'],
+         'The softest of the soft — safe for grandma, the office, and live television.'),
+        ('us-excl', 'American exclamation phrases', 'B',
+         ['GEEZ LOUISE', 'FOR CRYIN\' OUT LOUD', 'SON OF A GUN', 'I\'LL BE'],
+         'Multi-word American phrases — each a long detour around something shorter and stronger.'),
+        ('southern-send', 'Southern send-offs', 'R',
+         ['BLESS YOUR HEART', 'HEAVENS TO BETSY', 'MERCY ME', 'TARNATION'],
+         'Southern US: politeness, shock, and passive aggression in roughly equal measure.'),
+        ('midwest-mark', 'Midwest markers', 'K',
+         ['UFF DA', 'DON\'T CHA KNOW', 'CHEESE AND RICE', 'OPE'],
+         'Scandinavian-American "uff da," Minnesotan "don\'t cha know," and the universal Midwest "ope."'),
     ]),
     (50, 'Grand Finale II', [
         ('classics', 'British classics', 'Y',
@@ -393,12 +396,12 @@ def main():
     for (n, title, cats) in PUZZLES:
         dart = _render_puzzle(n, title, cats, words_by_dict)
         path = os.path.join(DATA_DIR, f'vulgus_{n:03d}.dart')
-        with open(path, 'w') as f:
+        with open(path, 'w', encoding='utf-8') as f:
             f.write(dart)
 
     # Write library
     lib = _render_library()
-    with open(os.path.join(DATA_DIR, 'puzzle_library.dart'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'puzzle_library.dart'), 'w', encoding='utf-8') as f:
         f.write(lib)
 
     print(f"OK: wrote {len(PUZZLES)} puzzles, 0 collisions, {len(PUZZLES)}/{len(PUZZLES)} passed validation.")

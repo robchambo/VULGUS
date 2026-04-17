@@ -29,6 +29,26 @@ import 'vulgus_027.dart';
 import 'vulgus_028.dart';
 import 'vulgus_029.dart';
 import 'vulgus_030.dart';
+import 'vulgus_031.dart';
+import 'vulgus_032.dart';
+import 'vulgus_033.dart';
+import 'vulgus_034.dart';
+import 'vulgus_035.dart';
+import 'vulgus_036.dart';
+import 'vulgus_037.dart';
+import 'vulgus_038.dart';
+import 'vulgus_039.dart';
+import 'vulgus_040.dart';
+import 'vulgus_041.dart';
+import 'vulgus_042.dart';
+import 'vulgus_043.dart';
+import 'vulgus_044.dart';
+import 'vulgus_045.dart';
+import 'vulgus_046.dart';
+import 'vulgus_047.dart';
+import 'vulgus_048.dart';
+import 'vulgus_049.dart';
+import 'vulgus_050.dart';
 
 const List<Puzzle> puzzleLibrary = [
   vulgus001,
@@ -61,4 +81,24 @@ const List<Puzzle> puzzleLibrary = [
   vulgus028,
   vulgus029,
   vulgus030,
+  vulgus031,
+  vulgus032,
+  vulgus033,
+  vulgus034,
+  vulgus035,
+  vulgus036,
+  vulgus037,
+  vulgus038,
+  vulgus039,
+  vulgus040,
+  vulgus041,
+  vulgus042,
+  vulgus043,
+  vulgus044,
+  vulgus045,
+  vulgus046,
+  vulgus047,
+  vulgus048,
+  vulgus049,
+  vulgus050,
 ];
