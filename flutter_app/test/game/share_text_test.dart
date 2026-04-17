@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:vulgus/game/models/guess.dart';
 import 'package:vulgus/game/models/puzzle.dart';
@@ -9,10 +10,10 @@ import 'package:vulgus/game/share_text.dart';
 final _testPuzzle = Puzzle(
   id: 'TEST-001',
   categories: const [
-    PuzzleCategory(id: 'idiot', label: 'A', etymology: '', tiles: ['A', 'B', 'C', 'D']),
-    PuzzleCategory(id: 'soft', label: 'B', etymology: '', tiles: ['E', 'F', 'G', 'H']),
-    PuzzleCategory(id: 'british', label: 'C', etymology: '', tiles: ['I', 'J', 'K', 'L']),
-    PuzzleCategory(id: 'nonsense', label: 'D', etymology: '', tiles: ['M', 'N', 'O', 'P']),
+    PuzzleCategory(id: 'idiot', label: 'A', etymology: '', color: Color(0xFFFFD167), tiles: ['A', 'B', 'C', 'D']),
+    PuzzleCategory(id: 'soft', label: 'B', etymology: '', color: Color(0xFF006482), tiles: ['E', 'F', 'G', 'H']),
+    PuzzleCategory(id: 'british', label: 'C', etymology: '', color: Color(0xFFB7102A), tiles: ['I', 'J', 'K', 'L']),
+    PuzzleCategory(id: 'nonsense', label: 'D', etymology: '', color: Color(0xFF1B1B1B), tiles: ['M', 'N', 'O', 'P']),
   ],
 );
 

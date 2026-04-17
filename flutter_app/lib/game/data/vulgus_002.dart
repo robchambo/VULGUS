@@ -9,7 +9,7 @@ const vulgus002 = Puzzle(
   categories: [
     PuzzleCategory(
       id: 'god-lite',
-      label: 'Polite stand-ins for 'God'',
+      label: "Polite stand-ins for 'God'",
       etymology: 'Clipped form of \'Jesus\'; late 19th C US.',
       color: AppColors.secondaryContainer,
       difficulty: Difficulty.easy,
