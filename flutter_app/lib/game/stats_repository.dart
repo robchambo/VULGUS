@@ -1,6 +1,9 @@
 import 'dart:convert';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../auth/user_repository.dart';
 import 'models/game_stats.dart';
 
 class StatsRepository {
@@ -78,6 +81,19 @@ class StatsRepository {
     await prefs.setString(_statsKey, jsonEncode(updated.toJson()));
 
     await _savePlayedDate(_today);
+
+    // Sync to Firestore (fire-and-forget — don't block the UI)
+    try {
+      final userRepo = UserRepository(
+        FirebaseFirestore.instance,
+        FirebaseAuth.instance,
+      );
+      final stats = await loadStats();
+      final dates = await loadPlayedDates();
+      userRepo.syncStats(stats, dates); // fire-and-forget
+    } catch (_) {
+      // Firestore sync failed — data is safe locally
+    }
   }
 
   Future<Set<String>> loadPlayedDates() async {

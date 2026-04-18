@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../../auth/user_repository.dart';
 import '../../core/first_launch.dart';
 import '../../theme/app_colors.dart';
 import '../onboarding_controller.dart';
@@ -26,6 +27,11 @@ class _EarlyAccessScreenState extends ConsumerState<EarlyAccessScreen> {
     final ctrl = ref.read(onboardingControllerProvider.notifier);
     if (capture && _email.text.trim().isNotEmpty) {
       ctrl.setEmail(_email.text.trim());
+      try {
+        ref
+            .read(userRepositoryProvider)
+            .saveEarlyAccessEmail(_email.text.trim());
+      } catch (_) {}
     }
     await ctrl.persist();
     await FirstLaunchRepository().markCompleted();
