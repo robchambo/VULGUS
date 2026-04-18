@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "527885183582-cruticnfibfua63tm7oiu51v0mh8e1t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.vulgus",
+            "certificate_hash": "6f7b58592e5be679605a61e3f11d6b816c5c2e71"
+          }
+        },
+        {
+          "client_id": "527885183582-t9ed2ck3pc7q7vj788r5ubq7dthr699n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.vulgus",
+            "certificate_hash": "62d3565687e357399b9f68d28c4072ff93045fec"
+          }
+        },
+        {
           "client_id": "527885183582-6bgsrt9grqlpn9lr6t20c4k4arta9ull.apps.googleusercontent.com",
           "client_type": 3
         }
