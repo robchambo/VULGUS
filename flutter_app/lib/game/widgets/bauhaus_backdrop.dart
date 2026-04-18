@@ -24,20 +24,6 @@ class BauhausBackdrop extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 96,
-            right: -80,
-            child: Container(
-              width: 224,
-              height: 224,
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: AppColors.secondaryContainer.withValues(alpha: 0.5),
-                  width: 4,
-                ),
-              ),
-            ),
-          ),
-          Positioned(
             top: MediaQuery.of(context).size.height / 2 - 40,
             right: 32,
             child: Container(

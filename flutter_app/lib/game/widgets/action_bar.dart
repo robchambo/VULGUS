@@ -58,9 +58,10 @@ class _OutlineButton extends StatelessWidget {
           side: const BorderSide(color: AppColors.onSurface, width: 2),
           shape: const RoundedRectangleBorder(borderRadius: BorderRadius.zero),
           minimumSize: const Size.fromHeight(52),
-          textStyle: const TextStyle(fontWeight: FontWeight.w800, letterSpacing: 1.5),
+          padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 14),
+          textStyle: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13, letterSpacing: 1),
         ),
-        child: Text(label.toUpperCase()),
+        child: FittedBox(child: Text(label.toUpperCase())),
       ),
     );
   }
@@ -86,10 +87,11 @@ class _FilledButton extends StatelessWidget {
             side: BorderSide(color: AppColors.onSurface, width: 2),
           ),
           minimumSize: const Size.fromHeight(52),
+          padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 14),
           elevation: 0,
-          textStyle: const TextStyle(fontWeight: FontWeight.w900, letterSpacing: 1.5),
+          textStyle: const TextStyle(fontWeight: FontWeight.w900, fontSize: 13, letterSpacing: 1),
         ),
-        child: Text(label.toUpperCase()),
+        child: FittedBox(child: Text(label.toUpperCase())),
       ),
     );
   }
