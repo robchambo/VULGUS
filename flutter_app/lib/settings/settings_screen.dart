@@ -1,7 +1,11 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../auth/auth_service.dart';
+import '../game/game_controller.dart';
+import '../game/stats_repository.dart';
 import '../notifications/notification_service.dart';
 import '../theme/app_colors.dart';
 
@@ -167,6 +171,38 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                   value: _notificationsEnabled,
                   onChanged: _toggleNotifications,
                   activeThumbColor: AppColors.primary,
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 24),
+
+          // ── Developer ────────────────────────────────────────────────
+          // TODO: Remove this section before release.
+          const _SectionHeader('DEVELOPER'),
+          _BauhausCard(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  'Reset today\'s puzzle so you can replay it.',
+                  style: t.bodySmall,
+                ),
+                const SizedBox(height: 12),
+                _BauhausButton(
+                  label: 'Reset today\'s puzzle',
+                  onPressed: () async {
+                    final prefs = await SharedPreferences.getInstance();
+                    await prefs.remove('today_play_v1');
+                    ref.invalidate(todayResultProvider);
+                    ref.invalidate(gameControllerProvider);
+                    if (mounted) {
+                      Navigator.of(context).pop();
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Puzzle reset — play again!')),
+                      );
+                    }
+                  },
                 ),
               ],
             ),
