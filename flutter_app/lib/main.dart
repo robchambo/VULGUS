@@ -20,7 +20,11 @@ void main() async {
     // Firebase not available (test environment or missing config)
   }
 
-  await MobileAds.instance.initialize();
+  try {
+    await MobileAds.instance.initialize();
+  } catch (_) {
+    // AdMob not configured — skip
+  }
   try {
     await NotificationService.initialize();
     final notifGranted = await Permission.notification.isGranted;
