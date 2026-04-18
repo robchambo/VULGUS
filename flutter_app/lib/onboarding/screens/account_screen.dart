@@ -10,8 +10,9 @@ class AccountScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final auth = AuthService();
+    final authRepo = ref.read(authRepositoryProvider);
     Future<void> next() async => context.go('/onboarding/early-access');
+
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -39,9 +40,14 @@ class AccountScreen extends ConsumerWidget {
                       label: 'Continue with Apple',
                       bg: AppColors.onSurface,
                       fg: AppColors.onPrimary,
-                      onPressed: () async {
-                        await auth.signInWithApple();
-                        if (context.mounted) await next();
+                      onPressed: () {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text(
+                              'Coming soon — Apple Sign-In requires an Apple Developer account',
+                            ),
+                          ),
+                        );
                       },
                     ),
                     const SizedBox(height: 12),
@@ -51,18 +57,12 @@ class AccountScreen extends ConsumerWidget {
                       bg: AppColors.surfaceContainerLowest,
                       fg: AppColors.onSurface,
                       onPressed: () async {
-                        await auth.signInWithGoogle();
-                        if (context.mounted) await next();
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                    _AuthButton(
-                      icon: Icons.mail_outline,
-                      label: 'Continue with email',
-                      bg: AppColors.surfaceContainerLowest,
-                      fg: AppColors.onSurface,
-                      onPressed: () async {
-                        await auth.signInWithEmail('placeholder@example.com');
+                        try {
+                          await authRepo.signInWithGoogle();
+                        } catch (_) {
+                          // Sign-in cancelled or failed — stay on screen
+                          return;
+                        }
                         if (context.mounted) await next();
                       },
                     ),
