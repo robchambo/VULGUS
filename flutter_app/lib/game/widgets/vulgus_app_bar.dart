@@ -3,8 +3,8 @@ import '../../theme/app_colors.dart';
 
 class VulgusAppBar extends StatelessWidget implements PreferredSizeWidget {
   final VoidCallback? onMenu;
-  final VoidCallback? onHelp;
-  const VulgusAppBar({super.key, this.onMenu, this.onHelp});
+  final VoidCallback? onSettings;
+  const VulgusAppBar({super.key, this.onMenu, this.onSettings});
 
   @override
   Size get preferredSize => const Size.fromHeight(80);
@@ -31,7 +31,11 @@ class VulgusAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
           ),
           const Spacer(),
-          _IconButton(icon: Icons.help_outline, onPressed: onHelp, semanticLabel: 'How to play'),
+          _IconButton(
+            icon: Icons.settings,
+            onPressed: onSettings,
+            semanticLabel: 'Settings',
+          ),
         ],
       ),
     );

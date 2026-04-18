@@ -4,6 +4,7 @@ import '../archive/archive_screen.dart';
 import '../game/widgets/vulgus_app_bar.dart';
 import '../game/widgets/vulgus_bottom_nav.dart';
 import '../rules/rules_screen.dart';
+import '../settings/settings_screen.dart';
 import '../stats/stats_placeholder.dart';
 import 'game_screen.dart';
 
@@ -26,7 +27,11 @@ class _HomeShellState extends ConsumerState<HomeShell> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const VulgusAppBar(),
+      appBar: VulgusAppBar(
+        onSettings: () => Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => const SettingsScreen()),
+        ),
+      ),
       body: SafeArea(
         top: false,
         child: IndexedStack(index: _tab, children: _tabs),
