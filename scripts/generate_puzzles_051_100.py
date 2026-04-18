@@ -7,6 +7,7 @@ Re-runnable: overwrites targets each run.
 """
 
 from __future__ import annotations
+import argparse
 import json, os, re, sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -859,6 +860,40 @@ def main():
         f.write(lib)
 
     print(f"OK: wrote {len(PUZZLES)} puzzles, 0 collisions, {len(PUZZLES)}/{len(PUZZLES)} passed validation.")
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--reuse-budget', type=int, default=None)
+    args = parser.parse_args()
+
+    if args.reuse_budget:
+        counts = _count_word_usage(PUZZLES, DATA_DIR, range(1, 101))
+        over = {w: c for w, c in counts.items() if c >= args.reuse_budget}
+        if over:
+            print(f"\nREUSE WARNING (budget={args.reuse_budget}):")
+            for w, c in sorted(over.items(), key=lambda x: -x[1]):
+                print(f"  {w}: {c} uses")
+        else:
+            print(f"\nAll words within reuse budget of {args.reuse_budget}.")
+
+
+def _count_word_usage(puzzles_list, existing_dart_dir, existing_range):
+    """Count per-word usage across existing dart files + new puzzles."""
+    counts = {}
+    # Count from existing dart files
+    for i in existing_range:
+        p = os.path.join(existing_dart_dir, f'vulgus_{i:03d}.dart')
+        if not os.path.exists(p):
+            continue
+        body = open(p, encoding='utf-8').read()
+        for m in re.findall(r"tiles:\s*\[(.*?)\]", body, re.DOTALL):
+            for w in re.findall(r"'([^']+)'", m):
+                counts[w] = counts.get(w, 0) + 1
+    # Count from new puzzles
+    for (n, title, cats) in puzzles_list:
+        for (cat_id, label, letter, tiles, _) in cats:
+            for w in tiles:
+                counts[w] = counts.get(w, 0) + 1
+    return counts
 
 
 if __name__ == '__main__':
