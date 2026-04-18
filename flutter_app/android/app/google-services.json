@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527885183582",
+    "project_id": "vulgus-6692b",
+    "storage_bucket": "vulgus-6692b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527885183582:android:5ae63ea64cfb975f98a2cf",
+        "android_client_info": {
+          "package_name": "app.vulgus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527885183582-6bgsrt9grqlpn9lr6t20c4k4arta9ull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy0pYN8YOnCOsg2V5EiVnNE0pO6S9Byg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527885183582-6bgsrt9grqlpn9lr6t20c4k4arta9ull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
