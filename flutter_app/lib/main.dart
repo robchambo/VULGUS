@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'app.dart';
 import 'notifications/notification_service.dart';
@@ -20,11 +19,6 @@ void main() async {
     // Firebase not available (test environment or missing config)
   }
 
-  try {
-    await MobileAds.instance.initialize();
-  } catch (_) {
-    // AdMob not configured — skip
-  }
   try {
     await NotificationService.initialize();
     final notifGranted = await Permission.notification.isGranted;

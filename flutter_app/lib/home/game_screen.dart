@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../ads/ad_service.dart';
 import '../game/game_controller.dart';
 import '../game/game_state.dart';
 import '../game/models/game_stats.dart';
@@ -59,8 +58,6 @@ class GameScreen extends ConsumerWidget {
       ref.invalidate(statsProvider);
       ref.invalidate(todayResultProvider);
     });
-    Future.delayed(const Duration(milliseconds: 800))
-        .then((_) => ref.read(adServiceProvider).showPostGameAd());
   }
 }
 
