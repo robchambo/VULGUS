@@ -93,12 +93,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
     final t = Theme.of(context).textTheme;
 
     return Scaffold(
-      appBar: _BauhausAppBar(title: 'SETTINGS'),
+      appBar: const _BauhausAppBar(title: 'SETTINGS'),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
           // ── Account ────────────────────────────────────────────────
-          _SectionHeader('ACCOUNT'),
+          const _SectionHeader('ACCOUNT'),
           _BauhausCard(
             child: isAnon
                 ? Column(
@@ -157,7 +157,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
           const SizedBox(height: 24),
 
           // ── Notifications ──────────────────────────────────────────
-          _SectionHeader('NOTIFICATIONS'),
+          const _SectionHeader('NOTIFICATIONS'),
           _BauhausCard(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -166,7 +166,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                 Switch(
                   value: _notificationsEnabled,
                   onChanged: _toggleNotifications,
-                  activeColor: AppColors.primary,
+                  activeThumbColor: AppColors.primary,
                 ),
               ],
             ),
@@ -174,7 +174,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
           const SizedBox(height: 24),
 
           // ── About ──────────────────────────────────────────────────
-          _SectionHeader('ABOUT'),
+          const _SectionHeader('ABOUT'),
           _BauhausCard(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,

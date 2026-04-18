@@ -24,7 +24,7 @@ class UserRepository {
       'email': _auth.currentUser?.email,
       'displayName': _auth.currentUser?.displayName,
       'isAnonymous': _auth.currentUser?.isAnonymous ?? true,
-    }, SetOptions(merge: true));
+    }, SetOptions(merge: true),);
   }
 
   /// Pull stats from Firestore (for cross-device sync).
@@ -52,7 +52,7 @@ class UserRepository {
     await doc.set({
       'earlyAccessEmail': email,
       'emailCapturedAt': FieldValue.serverTimestamp(),
-    }, SetOptions(merge: true));
+    }, SetOptions(merge: true),);
   }
 }
 
