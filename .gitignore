@@ -29,3 +29,6 @@ pubspec.lock
 .env
 .env.local
 *.local
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
