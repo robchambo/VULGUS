@@ -37,7 +37,7 @@ const vulgus051 = Puzzle(
       etymology: 'Deep-cut Australianisms: dried sheep dung, a killjoy, a dullard, and an uncultured suburbanite.',
       color: AppColors.onSurface,
       difficulty: Difficulty.trickiest,
-      tiles: ['DAG', 'WOWSER', 'MONG', 'BOGAN'],
+      tiles: ['DAG', 'WOWSER', 'DRONGO', 'BOGAN'],
     ),
   ],
 );

@@ -37,7 +37,7 @@ const vulgus072 = Puzzle(
       etymology: 'Australian slang that never quite made it to the rest of the world.',
       color: AppColors.onSurface,
       difficulty: Difficulty.trickiest,
-      tiles: ['DROPKICK', 'MONG', 'WOWSER', 'DAG'],
+      tiles: ['DROPKICK', 'NONG', 'WOWSER', 'DAG'],
     ),
   ],
 );

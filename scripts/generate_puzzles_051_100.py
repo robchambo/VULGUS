@@ -28,7 +28,7 @@ PUZZLES = [
          ['STREWTH', 'CRIKEY', 'GOOD GRIEF', 'HOLY TOLEDO'],
          'Exclamations of shock — Australian, British, American, and baseball-booth.'),
         ('oz-obscure', 'Deep-cut Australian', 'K',
-         ['DAG', 'WOWSER', 'MONG', 'BOGAN'],
+         ['DAG', 'WOWSER', 'DRONGO', 'BOGAN'],
          'Deep-cut Australianisms: dried sheep dung, a killjoy, a dullard, and an uncultured suburbanite.'),
     ]),
     (52, 'Shakespeare\'s Insult Kit', [
@@ -322,7 +322,7 @@ PUZZLES = [
          ['GOMBEEN', 'NYAFF', 'TEUCHTER', 'BANJAXED'],
          'Irish and Scottish Gaelic words adopted into English — a usurer, a nobody, a rustic, and broken.'),
         ('oz-loan', 'Australian imports', 'K',
-         ['DROPKICK', 'MONG', 'WOWSER', 'DAG'],
+         ['DROPKICK', 'NONG', 'WOWSER', 'DAG'],
          'Australian slang that never quite made it to the rest of the world.'),
     ]),
     (73, 'Ruddy Hell', [
@@ -473,8 +473,8 @@ PUZZLES = [
          ['RATBAG', 'LARRIKIN', 'DROPKICK', 'YOBBO'],
          'Australian words for troublemakers — scoundrels, hooligans, failures, and louts.'),
         ('aussie-adj', 'Aussie descriptors', 'R',
-         ['BLUDGER', 'DAG', 'WOWSER', 'MONG'],
-         'Australian descriptors — a freeloader, a daggy person, a killjoy, and a dullard.'),
+         ['BLUDGER', 'DAG', 'WOWSER', 'WALLY'],
+         'Aussie descriptors with one British cousin — a freeloader, a daggy person, a killjoy, and a wally.'),
         ('aussie-shared', 'Shared with Britain', 'K',
          ['GALOOT', 'PALOOKA', 'BOGAN', 'STREWTH'],
          'Words shared between Australian and British/American English — a clumsy oaf, a loser, an uncultured person, and an exclamation.'),

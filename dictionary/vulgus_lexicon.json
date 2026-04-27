@@ -2,7 +2,7 @@
   "schema_version": "0.3.0",
   "generated_from": "VULGUS_Dictionary_v0.1.xlsx",
   "generated_at": "2026-04-18T03:26:12.396607+00:00",
-  "word_count": 302,
+  "word_count": 301,
   "words": [
     {
       "id": 1,
@@ -5522,39 +5522,6 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "CC-BY-SA",
-      "reviewer_1": "",
-      "reviewer_2": "",
-      "date_approved": "",
-      "tame_ok": true,
-      "filthy_ok": true
-    },
-    {
-      "word": "MONG",
-      "variants": [
-        "mong"
-      ],
-      "severity": 1,
-      "region": "AU",
-      "era": "contemporary",
-      "semantic_type": "insult-mild",
-      "tags": [
-        "Australian"
-      ],
-      "etymology_note": "Australian abbreviation of 'mongrel', used since the 1940s to describe an annoying or contemptible person. Also used affectionately among friends: 'ya mong'.",
-      "definition": "A contemptible or annoying person (short for mongrel).",
-      "puzzle_difficulty": "R",
-      "ship": "YES",
-      "source": "Wiktionary",
-      "notes": "",
-      "id": 166,
-      "length": 4,
-      "is_single_word": true,
-      "part_of_speech": "noun",
-      "first_attested": 1940,
-      "register": "euphemism",
-      "family": null,
-      "wordle_eligible": true,
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",

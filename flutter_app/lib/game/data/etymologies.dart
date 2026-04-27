@@ -195,7 +195,6 @@ const etymologies = <String, Etymology>{
   'MERCY ME': Etymology(meta: 'US · Victorian', note: 'Southern US exclamation; truncated religious plea.'),
   'MINGER': Etymology(meta: 'UK', note: 'From Scots dialect \'ming\' (to smell bad), possibly from Old English \'mengan\' (to mix). \'Minger\' exploded in 1990s British slang meaning an unattractive person. \'Minging\' means disgusting.'),
   'MISCREANT': Etymology(meta: 'ARCHAIC · archaic', note: 'From Old French \'mescreant\' (unbeliever) — originally a Crusades-era term for a non-Christian. By the 14th century it broadened to mean any villain or wretch, regardless of faith.'),
-  'MONG': Etymology(meta: 'AU', note: 'Australian abbreviation of \'mongrel\', used since the 1940s to describe an annoying or contemptible person. Also used affectionately among friends: \'ya mong\'.'),
   'MOONCALF': Etymology(meta: 'UK · archaic', note: 'Originally a deformed calf thought to be caused by the moon\'s influence (16th century superstition). Shakespeare used it in \'The Tempest\' for Caliban. By Victorian times it meant a dreamy fool.'),
   'MOUNTEBANK': Etymology(meta: 'ARCHAIC · Victorian', note: 'From Italian \'monta in banco\' — one who climbs on a bench (to sell fake cures).'),
   'MUGGER': Etymology(meta: '', note: 'In theatre, \'mugging\' means making exaggerated facial expressions to get laughs — from \'mug\' (face, since the 1700s, probably from drinking mugs shaped like faces). A separate meaning from \'robber\'.'),

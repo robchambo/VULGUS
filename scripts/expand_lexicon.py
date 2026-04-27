@@ -351,21 +351,7 @@ NEW_WORDS = [
         'source': 'Wiktionary',
         'notes': '',
     },
-    {
-        'word': 'MONG',
-        'variants': 'mong',
-        'severity': 1,
-        'region': 'AU',
-        'era': 'contemporary',
-        'semantic_type': 'insult-mild',
-        'tags': ['Australian'],
-        'etymology_note': "Australian abbreviation of 'mongrel', used since the 1940s to describe an annoying or contemptible person. Also used affectionately among friends: 'ya mong'.",
-        'definition': 'A contemptible or annoying person (short for mongrel).',
-        'puzzle_difficulty': 'R',
-        'ship': 'YES',
-        'source': 'Wiktionary',
-        'notes': '',
-    },
+    # MONG removed per slur blocklist (ableist) — see dictionary v0.3 plan.
     {
         'word': 'WOWSER',
         'variants': '',

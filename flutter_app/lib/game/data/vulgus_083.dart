@@ -26,10 +26,10 @@ const vulgus083 = Puzzle(
     PuzzleCategory(
       id: 'aussie-adj',
       label: 'Aussie descriptors',
-      etymology: 'Australian descriptors — a freeloader, a daggy person, a killjoy, and a dullard.',
+      etymology: 'Aussie descriptors with one British cousin — a freeloader, a daggy person, a killjoy, and a wally.',
       color: AppColors.primary,
       difficulty: Difficulty.hard,
-      tiles: ['BLUDGER', 'DAG', 'WOWSER', 'MONG'],
+      tiles: ['BLUDGER', 'DAG', 'WOWSER', 'WALLY'],
     ),
     PuzzleCategory(
       id: 'aussie-shared',
