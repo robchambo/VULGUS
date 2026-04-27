@@ -32,3 +32,11 @@ pubspec.lock
 
 # Claude Code local settings (machine-specific)
 .claude/settings.local.json
+
+# Slur blocklist — populated locally, kept out of public repo by default
+# (see dictionary/slur_blocklist.example.txt for format)
+dictionary/slur_blocklist.txt
+
+# Python cache
+__pycache__/
+*.pyc
