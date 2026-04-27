@@ -1,0 +1,26 @@
+# Slur blocklist for VULGUS lexicon — example file.
+#
+# Per the dictionary v0.3 plan editorial line: racial, ethnic, religious-group,
+# homophobic, transphobic, ableist, and misogynistic slurs are excluded from
+# the lexicon — even with "etymological interest" framing, even reclaimed-by-target.
+#
+# To enable enforcement:
+#   1. Copy this file to dictionary/slur_blocklist.txt
+#   2. Add one term per line, case-insensitive (matched against word + variants).
+#   3. Lines starting with # are comments and ignored.
+#   4. The real slur_blocklist.txt is gitignored — do not commit actual slurs
+#      to the public repo unless that is a deliberate decision.
+#
+# Format example (these are placeholders only, not real slurs):
+#
+#   # Racial / ethnic
+#   PLACEHOLDER_TERM_1
+#   PLACEHOLDER_TERM_2
+#
+#   # Homophobic
+#   PLACEHOLDER_TERM_3
+#
+# scripts/lint_lexicon.py loads this file at lint time. If the file is absent,
+# a warning is printed and the slur check is skipped. If a lexicon entry's
+# `word` or any of its `variants` matches a blocklist term (case-insensitive),
+# lint exits non-zero.

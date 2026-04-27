@@ -23,8 +23,38 @@ REQUIRED_FIELDS = [
     'id', 'word', 'severity', 'region', 'ship', 'tags',
     'etymology_note', 'definition', 'length', 'is_single_word',
     'register', 'wordle_eligible',
+    # v0.3.0: tone toggle gates
+    'tame_ok', 'filthy_ok',
 ]
 WORDLE_ELIGIBLE_LENGTHS = {4, 5, 6, 7}
+
+# Optional, gitignored. If present, every word/variant is checked against it.
+# See dictionary/slur_blocklist.example.txt for format.
+BLOCKLIST_PATH = os.path.join(REPO, 'dictionary', 'slur_blocklist.txt')
+
+
+def default_tame_ok(severity: int) -> bool:
+    """Default tame eligibility: severity 1-3 in, 4-5 out (override per word allowed)."""
+    return severity <= 3
+
+
+def default_filthy_ok(severity: int) -> bool:
+    """Default filthy eligibility: every severity allowed."""
+    return True
+
+
+def load_blocklist() -> set[str] | None:
+    """Load slur blocklist from disk. Returns None if file absent."""
+    if not os.path.exists(BLOCKLIST_PATH):
+        return None
+    terms: set[str] = set()
+    with open(BLOCKLIST_PATH, encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            terms.add(line.upper())
+    return terms
 
 
 def _is_empty(v) -> bool:
@@ -36,14 +66,16 @@ def _is_empty(v) -> bool:
     return False
 
 
-def lint(path: str) -> list[str]:
+def lint(path: str) -> tuple[list[str], list[str]]:
+    """Returns (errors, warnings). Errors fail the lint; warnings inform only."""
     errors: list[str] = []
+    warnings: list[str] = []
 
     try:
         with open(path, encoding='utf-8') as f:
             data = json.load(f)
     except Exception as e:
-        return [f"[file] Cannot load JSON: {e}"]
+        return [f"[file] Cannot load JSON: {e}"], warnings
 
     # Check 11: schema_version present
     if 'schema_version' not in data:
@@ -51,7 +83,15 @@ def lint(path: str) -> list[str]:
 
     words_list = data.get('words', [])
     if not isinstance(words_list, list):
-        return errors + ["[file] 'words' key is not a list"]
+        return errors + ["[file] 'words' key is not a list"], warnings
+
+    blocklist = load_blocklist()
+    if blocklist is None:
+        warnings.append(
+            f"[file] Slur blocklist not found at {BLOCKLIST_PATH}. "
+            f"Lint will not enforce slur exclusion. "
+            f"See dictionary/slur_blocklist.example.txt for format."
+        )
 
     seen_words: dict[str, int] = {}   # word -> first entry index
     seen_ids: dict[int | str, int] = {}  # id -> first entry index
@@ -126,6 +166,49 @@ def lint(path: str) -> list[str]:
         elif not all(isinstance(t, str) for t in tags):
             errors.append(f"{label} field='tags': all items must be strings")
 
+        # Check 12: tame_ok / filthy_ok must be bools (v0.3.0)
+        tame_ok = entry.get('tame_ok')
+        filthy_ok = entry.get('filthy_ok')
+        if not isinstance(tame_ok, bool):
+            errors.append(f"{label} field='tame_ok': must be bool, got {tame_ok!r}")
+        if not isinstance(filthy_ok, bool):
+            errors.append(f"{label} field='filthy_ok': must be bool, got {filthy_ok!r}")
+
+        # Check 13: tame_ok / filthy_ok consistency with severity (warn, not fail).
+        # Override is allowed — see plan editorial line — but lint surfaces it for review.
+        if isinstance(severity, int) and isinstance(tame_ok, bool):
+            if tame_ok != default_tame_ok(severity):
+                warnings.append(
+                    f"{label} field='tame_ok'={tame_ok} differs from default "
+                    f"({default_tame_ok(severity)} for severity {severity}) — confirm override is intentional"
+                )
+        if isinstance(severity, int) and isinstance(filthy_ok, bool):
+            if filthy_ok != default_filthy_ok(severity):
+                warnings.append(
+                    f"{label} field='filthy_ok'={filthy_ok} differs from default "
+                    f"({default_filthy_ok(severity)} for severity {severity}) — confirm override is intentional"
+                )
+
+        # Check 14: must be eligible for at least one mode (otherwise unreachable)
+        if tame_ok is False and filthy_ok is False:
+            errors.append(
+                f"{label} fields='tame_ok'+'filthy_ok': both false — word is unreachable "
+                f"in any tonal mode. Either delete the entry or set one to true."
+            )
+
+        # Check 15: slur blocklist (only if blocklist file present)
+        if blocklist is not None and isinstance(word, str):
+            tokens = {word.upper()}
+            variants = entry.get('variants') or []
+            if isinstance(variants, list):
+                tokens.update(v.upper() for v in variants if isinstance(v, str))
+            hits = tokens & blocklist
+            if hits:
+                errors.append(
+                    f"{label} word/variants matched slur blocklist: {sorted(hits)}. "
+                    f"Editorial line: slurs out, no exceptions."
+                )
+
         # Check 8: no duplicate words
         word_key = word.upper() if isinstance(word, str) else word
         if word_key in seen_words:
@@ -144,11 +227,15 @@ def lint(path: str) -> list[str]:
         else:
             seen_ids[entry_id] = idx
 
-    return errors
+    return errors, warnings
 
 
 def main():
-    errors = lint(JSON_PATH)
+    errors, warnings = lint(JSON_PATH)
+    if warnings:
+        print(f"WARNINGS: {len(warnings)} item(s)")
+        for w in warnings:
+            print(f"  {w}")
     if errors:
         print(f"ERRORS: {len(errors)} issue(s) found in {JSON_PATH}")
         for e in errors:

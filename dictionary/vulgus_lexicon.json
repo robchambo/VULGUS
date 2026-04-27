@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "generated_from": "VULGUS_Dictionary_v0.1.xlsx",
   "generated_at": "2026-04-18T03:26:12.396607+00:00",
   "word_count": 302,
@@ -36,7 +36,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 2,
@@ -68,7 +70,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 3,
@@ -98,7 +102,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 4,
@@ -128,7 +134,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 5,
@@ -161,7 +169,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 6,
@@ -192,7 +202,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 7,
@@ -222,7 +234,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 8,
@@ -253,7 +267,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 9,
@@ -284,7 +300,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 10,
@@ -315,7 +333,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 11,
@@ -345,7 +365,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 12,
@@ -376,7 +398,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 13,
@@ -407,7 +431,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 14,
@@ -438,7 +464,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 15,
@@ -470,7 +498,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 16,
@@ -501,7 +531,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 17,
@@ -531,7 +563,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 18,
@@ -562,7 +596,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 19,
@@ -593,7 +629,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 20,
@@ -624,7 +662,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 21,
@@ -655,7 +695,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 22,
@@ -686,7 +728,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 23,
@@ -716,7 +760,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 24,
@@ -745,7 +791,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 25,
@@ -775,7 +823,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 26,
@@ -807,7 +857,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 27,
@@ -838,7 +890,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 28,
@@ -868,7 +922,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 29,
@@ -898,7 +954,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 30,
@@ -928,7 +986,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 31,
@@ -958,7 +1018,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 32,
@@ -988,7 +1050,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 33,
@@ -1018,7 +1082,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 34,
@@ -1047,7 +1113,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 35,
@@ -1078,7 +1146,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 36,
@@ -1109,7 +1179,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 37,
@@ -1140,7 +1212,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 38,
@@ -1171,7 +1245,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 39,
@@ -1202,7 +1278,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 40,
@@ -1233,7 +1311,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 41,
@@ -1263,7 +1343,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 42,
@@ -1293,7 +1375,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 43,
@@ -1323,7 +1407,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 44,
@@ -1353,7 +1439,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 45,
@@ -1384,7 +1472,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 46,
@@ -1414,7 +1504,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 47,
@@ -1445,7 +1537,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 48,
@@ -1478,7 +1572,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 49,
@@ -1509,7 +1605,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 50,
@@ -1540,7 +1638,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 51,
@@ -1572,7 +1672,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 52,
@@ -1604,7 +1706,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 53,
@@ -1635,7 +1739,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 54,
@@ -1666,7 +1772,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 55,
@@ -1696,7 +1804,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 56,
@@ -1726,7 +1836,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 57,
@@ -1756,7 +1868,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 58,
@@ -1786,7 +1900,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 59,
@@ -1816,7 +1932,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 60,
@@ -1847,7 +1965,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 61,
@@ -1881,7 +2001,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 62,
@@ -1912,7 +2034,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 63,
@@ -1943,7 +2067,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 64,
@@ -1977,7 +2103,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 65,
@@ -2011,7 +2139,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 66,
@@ -2043,7 +2173,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 67,
@@ -2077,7 +2209,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 68,
@@ -2110,7 +2244,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 69,
@@ -2143,7 +2279,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 70,
@@ -2174,7 +2312,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 71,
@@ -2207,7 +2347,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 72,
@@ -2240,7 +2382,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 73,
@@ -2273,7 +2417,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 74,
@@ -2304,7 +2450,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 75,
@@ -2337,7 +2485,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 76,
@@ -2372,7 +2522,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 77,
@@ -2405,7 +2557,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 78,
@@ -2439,7 +2593,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 79,
@@ -2473,7 +2629,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 80,
@@ -2507,7 +2665,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 81,
@@ -2539,7 +2699,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 82,
@@ -2572,7 +2734,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 83,
@@ -2603,7 +2767,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 84,
@@ -2634,7 +2800,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 85,
@@ -2665,7 +2833,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 86,
@@ -2696,7 +2866,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 87,
@@ -2726,7 +2898,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 88,
@@ -2756,7 +2930,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 89,
@@ -2787,7 +2963,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 90,
@@ -2818,7 +2996,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 91,
@@ -2851,7 +3031,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 92,
@@ -2881,7 +3063,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 93,
@@ -2911,7 +3095,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 94,
@@ -2943,7 +3129,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 95,
@@ -2975,7 +3163,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 96,
@@ -3006,7 +3196,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 97,
@@ -3037,7 +3229,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 98,
@@ -3068,7 +3262,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 99,
@@ -3101,7 +3297,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 100,
@@ -3135,7 +3333,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 101,
@@ -3167,7 +3367,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 102,
@@ -3198,7 +3400,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 103,
@@ -3229,7 +3433,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 104,
@@ -3260,7 +3466,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 105,
@@ -3293,7 +3501,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 106,
@@ -3324,7 +3534,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 107,
@@ -3354,7 +3566,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 108,
@@ -3385,7 +3599,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 109,
@@ -3415,7 +3631,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 110,
@@ -3446,7 +3664,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 111,
@@ -3478,7 +3698,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 112,
@@ -3512,7 +3734,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 113,
@@ -3546,7 +3770,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 114,
@@ -3578,7 +3804,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 115,
@@ -3611,7 +3839,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 116,
@@ -3644,7 +3874,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 117,
@@ -3678,7 +3910,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 118,
@@ -3710,7 +3944,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 119,
@@ -3742,7 +3978,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 120,
@@ -3773,7 +4011,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 121,
@@ -3806,7 +4046,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 122,
@@ -3840,7 +4082,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 123,
@@ -3872,7 +4116,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 124,
@@ -3904,7 +4150,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 125,
@@ -3936,7 +4184,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 126,
@@ -3970,7 +4220,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 127,
@@ -4001,7 +4253,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 128,
@@ -4033,7 +4287,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 129,
@@ -4064,7 +4320,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 130,
@@ -4096,7 +4354,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 131,
@@ -4127,7 +4387,9 @@
       "register": "vulgar",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 132,
@@ -4159,7 +4421,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 133,
@@ -4191,7 +4455,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 134,
@@ -4225,7 +4491,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 135,
@@ -4259,7 +4527,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 136,
@@ -4290,7 +4560,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 137,
@@ -4322,7 +4594,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": false,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 138,
@@ -4353,7 +4627,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 139,
@@ -4386,7 +4662,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 140,
@@ -4418,7 +4696,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 141,
@@ -4449,7 +4729,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 142,
@@ -4481,7 +4763,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 143,
@@ -4516,7 +4800,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 144,
@@ -4547,7 +4833,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 145,
@@ -4578,7 +4866,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "fair-use-attribution"
+      "license": "fair-use-attribution",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 146,
@@ -4610,7 +4900,9 @@
       "register": "euphemism",
       "family": null,
       "wordle_eligible": true,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "id": 147,
@@ -4641,7 +4933,9 @@
       "register": "informal",
       "family": null,
       "wordle_eligible": false,
-      "license": "public-domain"
+      "license": "public-domain",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "POLTROON",
@@ -4672,7 +4966,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PRIBBLING",
@@ -4702,7 +4998,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GUDGEON",
@@ -4733,7 +5031,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CANKER",
@@ -4765,7 +5065,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "STRUMPET",
@@ -4796,7 +5098,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "JACKANAPES",
@@ -4826,7 +5130,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PUTTOCK",
@@ -4857,7 +5163,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LOUT",
@@ -4889,7 +5197,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CULLION",
@@ -4920,7 +5230,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LEWDSTER",
@@ -4950,7 +5262,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "HEDGE-PIG",
@@ -4981,7 +5295,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CLOTPOLE",
@@ -5015,7 +5331,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "FUSTILUGS",
@@ -5045,7 +5363,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SCUT",
@@ -5075,7 +5395,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DAG",
@@ -5107,7 +5429,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLUDGER",
@@ -5137,7 +5461,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "RATBAG",
@@ -5167,7 +5493,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DROPKICK",
@@ -5197,7 +5525,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MONG",
@@ -5228,7 +5558,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "WOWSER",
@@ -5258,7 +5590,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "YOBBO",
@@ -5290,7 +5624,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LARRIKIN",
@@ -5320,7 +5656,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GALOOT",
@@ -5350,7 +5688,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NONG",
@@ -5380,7 +5720,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DILL",
@@ -5410,7 +5752,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "COBBLERS",
@@ -5441,7 +5785,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NAFF",
@@ -5474,7 +5820,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "HAMPTON",
@@ -5505,7 +5853,9 @@
       "license": "public-domain",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "RASPBERRY",
@@ -5535,7 +5885,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "KHYBER",
@@ -5566,7 +5918,9 @@
       "license": "public-domain",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BRAHMS",
@@ -5596,7 +5950,9 @@
       "license": "public-domain",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PLATES",
@@ -5626,7 +5982,9 @@
       "license": "public-domain",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PORKY",
@@ -5658,7 +6016,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NUTTY",
@@ -5690,7 +6050,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DIPPY",
@@ -5720,7 +6082,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BARMY",
@@ -5750,7 +6114,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CAD",
@@ -5782,7 +6148,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BOUNDER",
@@ -5812,7 +6180,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "ROTTER",
@@ -5842,7 +6212,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLIGHTER",
@@ -5872,7 +6244,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SCALLYWAG",
@@ -5905,7 +6279,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLACKGUARD",
@@ -5937,7 +6313,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "COVE",
@@ -5967,7 +6345,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SKIVER",
@@ -5998,7 +6378,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MOONCALF",
@@ -6029,7 +6411,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GUTTERSNIPE",
@@ -6059,7 +6443,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLETHER",
@@ -6092,7 +6478,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BAWBAG",
@@ -6123,7 +6511,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NYAFF",
@@ -6153,7 +6543,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GOWK",
@@ -6184,7 +6576,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "ROASTER",
@@ -6214,7 +6608,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BANJAXED",
@@ -6244,7 +6640,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GOMBEEN",
@@ -6274,7 +6672,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GOWL",
@@ -6304,7 +6704,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TEUCHTER",
@@ -6334,7 +6736,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LANDLUBBER",
@@ -6366,7 +6770,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BILGE RAT",
@@ -6397,7 +6803,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SCURVY",
@@ -6427,7 +6835,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SCUPPER",
@@ -6457,7 +6867,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BARNACLE",
@@ -6488,7 +6900,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SWAB",
@@ -6518,7 +6932,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "KEELHAUL",
@@ -6548,7 +6964,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "FREEBOOTER",
@@ -6578,7 +6996,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BUCCANEER",
@@ -6608,7 +7028,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BILGE",
@@ -6638,7 +7060,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "WRETCH",
@@ -6670,7 +7094,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "POOPYHEAD",
@@ -6702,7 +7128,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MEANIE",
@@ -6733,7 +7161,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "STINKER",
@@ -6765,7 +7195,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BOOGER",
@@ -6795,7 +7227,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BUTTHEAD",
@@ -6826,7 +7260,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DOODOO",
@@ -6858,7 +7294,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TATTLE",
@@ -6889,7 +7327,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NINNY",
@@ -6921,7 +7361,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "WEENIE",
@@ -6952,7 +7394,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "FRUITCAKE",
@@ -6982,7 +7426,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NUTCASE",
@@ -7012,7 +7458,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CRUMPET",
@@ -7042,7 +7490,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NOODLE",
@@ -7072,7 +7522,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BANANA",
@@ -7101,7 +7553,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PICKLE",
@@ -7131,7 +7585,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SAUSAGE",
@@ -7163,7 +7619,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TURNIP",
@@ -7193,7 +7651,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TOAD",
@@ -7222,7 +7682,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "WEASEL",
@@ -7251,7 +7713,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SNAKE",
@@ -7280,7 +7744,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CUR",
@@ -7310,7 +7776,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "RAT",
@@ -7339,7 +7807,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "VIPER",
@@ -7369,7 +7839,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MAGPIE",
@@ -7399,7 +7871,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DONKEY",
@@ -7428,7 +7902,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TOERAG",
@@ -7460,7 +7936,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PIFFLE",
@@ -7490,7 +7968,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DRECK",
@@ -7523,7 +8003,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GUBBINS",
@@ -7554,7 +8036,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TRIPE",
@@ -7585,7 +8069,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DRIVEL",
@@ -7615,7 +8101,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GUFF",
@@ -7645,7 +8133,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "HOLY TOLEDO",
@@ -7676,7 +8166,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GOOD GRIEF",
@@ -7707,7 +8199,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "FLIPPING",
@@ -7740,7 +8234,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLOOMING",
@@ -7773,7 +8269,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLASTED",
@@ -7804,7 +8302,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "RUDDY",
@@ -7835,7 +8335,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "STREWTH",
@@ -7869,7 +8371,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SLACKER",
@@ -7898,7 +8402,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "JOBSWORTH",
@@ -7928,7 +8434,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SHIRKER",
@@ -7957,7 +8465,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LAYABOUT",
@@ -7987,7 +8497,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DOSSER",
@@ -8017,7 +8529,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MISCREANT",
@@ -8047,7 +8561,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "WASTREL",
@@ -8077,7 +8593,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CHURL",
@@ -8109,7 +8627,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CRAVEN",
@@ -8140,7 +8660,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DASTARD",
@@ -8173,7 +8695,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "RECREANT",
@@ -8204,7 +8728,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CAITIFF",
@@ -8235,7 +8761,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "ROGUE",
@@ -8267,7 +8795,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "HAM",
@@ -8299,7 +8829,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CORPSE",
@@ -8330,7 +8862,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "UPSTAGE",
@@ -8359,7 +8893,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "FLOP",
@@ -8388,7 +8924,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "HACK",
@@ -8418,7 +8956,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SCENERY CHEWER",
@@ -8447,7 +8987,9 @@
       "license": "CC-BY-SA",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MUGGER",
@@ -8478,7 +9020,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LUVVIE",
@@ -8510,7 +9054,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TWATS",
@@ -8540,7 +9086,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PRATS",
@@ -8570,7 +9118,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BRATS",
@@ -8600,7 +9150,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GRIPE",
@@ -8631,7 +9183,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SNIT",
@@ -8660,7 +9214,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CLOD",
@@ -8691,7 +9247,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "OAFS",
@@ -8720,7 +9278,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "DUNCE",
@@ -8750,7 +9310,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "LEMON",
@@ -8780,7 +9342,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BONCE",
@@ -8810,7 +9374,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BLOKE",
@@ -8839,7 +9405,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TOSSER",
@@ -8869,7 +9437,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PLONK",
@@ -8899,7 +9469,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BIMBO",
@@ -8928,7 +9500,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "YOKEL",
@@ -8958,7 +9532,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CHUMP",
@@ -8987,7 +9563,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BOOB",
@@ -9018,7 +9596,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GEEZER",
@@ -9049,7 +9629,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "NARK",
@@ -9080,7 +9662,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "TWERP",
@@ -9109,7 +9693,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PLEB",
@@ -9141,7 +9727,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "GIMP",
@@ -9170,7 +9758,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "SPIV",
@@ -9200,7 +9790,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CRASS",
@@ -9229,7 +9821,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "BOOR",
@@ -9260,7 +9854,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "KNOB",
@@ -9292,7 +9888,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "CLOT",
@@ -9322,7 +9920,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "PONCE",
@@ -9353,7 +9953,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     },
     {
       "word": "MINGER",
@@ -9385,7 +9987,9 @@
       "license": "fair-use-attribution",
       "reviewer_1": "",
       "reviewer_2": "",
-      "date_approved": ""
+      "date_approved": "",
+      "tame_ok": true,
+      "filthy_ok": true
     }
   ]
 }
