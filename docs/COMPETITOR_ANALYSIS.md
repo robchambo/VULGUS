@@ -122,7 +122,9 @@ The non-NYT winners share a small set of traits. None of them is "better mechani
 
 6. **A built-in audience to recruit from.** Themed-clone winners borrow a fandom. VULGUS doesn't have a single fandom but it has multiple adjacent ones: comedy podcast listeners, etymology nerds, swearing-as-craft writers (Mohr, Bergen, McWhorter readers), British comedy fans. **Pick one or two for launch and seed there**, rather than aiming generically at "Connections fans."
 
-7. **Restraint on monetisation.** Free daily, free streak, free share. Paywall the archive, alternate modes ("mild mode" as a free toggle but "filthy mode" as a $1 unlock?), themed week packs (Shakespearean swears, Aussie pack), and gift codes. Avoid interstitial ads — they're inconsistent with the design-led brand.
+7. **Restraint on monetisation.** Free daily, free streak, free share. Paywall the archive, themed week packs (Shakespearean swears, Aussie pack), and gift codes. Avoid interstitial ads — they're inconsistent with the design-led brand.
+
+   **Cross-cutting product lever — the vulgar switch.** Confirmed direction (2026-04-26): a binary tonal toggle in user settings (tame by default, filthy mode opt-in), per-account and synced across web + mobile. The switch resolves the brand/audience tension that otherwise forces a single tonal commitment: app-store screenshots show the tame surface, etymology-Twitter recruits know the spicy mode is one tap away. Same editorial bar at every level — filthy mode must be the *best* version of that puzzle, not just the rude version. Worth shipping as v1 architecture (settings toggle + lexicon severity-filter), even if the spicy puzzle library starts small and grows post-launch. Paywall on filthy mode unlock is a viable v1.1 monetisation lever once the content backlog supports it.
 
 ### Concrete recommendations for VULGUS
 
@@ -260,6 +262,10 @@ Two axes that matter: **Tone** (family-neutral ↔ playful-adult) and **Engageme
 - **Name a single editor.** Susie Dent's brand exists because she has a face. Etymonline has Douglas Harper's name on the masthead. NYT Games doesn't — but they're NYT. You're not, so you need a face.
 - **Free daily forever; archive + hints + ad-free behind a $3.99/mo · $24.99/yr · $49.99 lifetime paywall.**
 - **Partnership long-shot worth pursuing:** Etymonline (Douglas Harper, solo operation) for either licensing the data formally or co-branding the daily quiz. Lower probability than the Hearst/Puzzmo angle but the audience overlap is exact.
+
+### Cross-cutting: the vulgar switch applies to both VULGUS apps
+
+The tonal toggle defined in Section 5 (tame default, filthy opt-in, per-account, synced) is a family-level product feature, not specific to VULGUS-Connections. VULGUS-Etymology benefits from it equally — a tame distractor pool stays family-friendly while filthy mode unlocks 17+-grade etymologies (the Susie Dent's *Guide to Swearing* register). Same lexicon filter, same severity ratings, same per-account synced setting. The shared settings are an additional argument for one Firebase project, multiple apps (the architecture call already locked in the launch-readiness plan).
 
 ### What to *not* copy from etymology competitors
 
