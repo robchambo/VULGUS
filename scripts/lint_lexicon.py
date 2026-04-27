@@ -206,7 +206,8 @@ def lint(path: str) -> tuple[list[str], list[str]]:
             if hits:
                 errors.append(
                     f"{label} word/variants matched slur blocklist: {sorted(hits)}. "
-                    f"Editorial line: slurs out, no exceptions."
+                    f"Action: delete this entry from the lexicon. "
+                    f"Slurs are not softened, re-rated, or kept under override — they are removed."
                 )
 
         # Check 8: no duplicate words
