@@ -2,7 +2,7 @@
 
 *Scope: daily word-grouping / connection puzzles in the lineage of NYT Connections, plus the broader daily-puzzle field that competes for the same attention slot. NYT is referenced as the category leader but is excluded from the "what to copy" analysis because its scale, brand, and bundle (Wordle + Crossword + Spelling Bee + Strands) are not reproducible.*
 
-*Compiled April 2026.*
+*Compiled April 2026. Updated 2026-04-26 with **Section 6: etymology-quiz / word-origin daily** — companion analysis for the VULGUS app #2 (separate-app, family-brand model locked in the launch-readiness plan). Section 6 also includes the detailed mobile-ads playbook (eCPM by format, retention effects, the rewarded-vs-interstitial trade-off) that earlier sections only touch on.*
 
 ---
 
@@ -142,6 +142,133 @@ The non-NYT winners share a small set of traits. None of them is "better mechani
 
 ---
 
+## 6. Etymology-quiz / word-origin daily — companion analysis for VULGUS app #2
+
+*Added 2026-04-26 after the launch-readiness plan locked etymology-quiz as the second app in the VULGUS family. The analysis is tighter than sections 1–5 because the niche is much smaller, and adds a detailed mobile-ads playbook because that question came up explicitly during the brief.*
+
+### 6a. The competitive set
+
+#### Direct (etymology-as-game)
+
+| App | Hook | Platform | Model |
+|---|---|---|---|
+| **Orijinz Daily** (Entspire LLC) | Read the origin → guess the word/phrase. Includes a "Con Game" variant (multiple plausible origins, pick the real one — NPR's *Says You* style). Originated as a Parent's Choice-awarded card game; press from NYT and *People*. | iOS / Android / web / Mac / PC | One free puzzle/day; card-game expansions sold separately |
+| **EtymologyExplorer** | Visual etymology trees, cross-language cognate search, Word of the Day notification. Exploration tool, not a quiz primarily. 4.8★ / 1.5k ratings. | iOS / Android | Freemium — $3.99/mo · $19.99/yr · $59.99 lifetime · $1.49 supporter |
+| **Etymology Dictionary Offline** | Reference + bundled quiz feature. | iOS | Free + small premium |
+
+#### Adjacent — the data backbone and the daily-content layer
+
+| Property | What it is | Why it matters |
+|---|---|---|
+| **Etymonline app** (Online Etymology Dictionary, Douglas Harper) | Dominant reference. 4.9★, 100k+ Android downloads. Premium = ad-free + offline. | Players will fact-check anything you ship against this. Worth attribution; partnership conceivable. |
+| **Word of the Day** (helium) | Daily vocab + 1-min mini-quiz. 7M+ downloads, 2025 Best Mobile App award. Spaced-repetition retention loop. | The proven daily-ritual mechanic in this audience — 1-minute commitment, streak-tracked. |
+| **Vocabulary.com / Anki / Quizlet / Memrise** | Vocab-as-quiz, education-coded. | Adjacent audience; education brand association makes them poor recruiting grounds for etymology-Twitter. |
+| **Elevate** | Gamified brain training (vocab subset). Apple App of Year. | Reference for retention loops, not a competitor for share-of-voice. |
+
+#### Aspirational — the brand moat in etymology content
+
+- **Susie Dent's *Something Rhymes With Purple*** (with Gyles Brandreth) — Purple Plus Club paid tier. The etymology-celebrity model. Competitor for *attention*, not downloads. Susie Dent has also presented *Susie Dent's Guide to Swearing* on Channel 4 — directly adjacent to VULGUS's tonal positioning.
+- **Mark Forsyth** (*The Etymologicon*, @inkyfool) — adjacent text brand.
+- **NYT Games** ($4.99/mo · $39.99/yr) — Wordle, Connections, Strands, Spelling Bee, Crossword bundle. Free daily, paywall on archive + hints. The category anchor.
+
+### 6b. Feature comparison
+
+| Feature | Orijinz Daily | EtymologyExplorer | Etymonline | Word of the Day | NYT Games | **VULGUS-Etymology** (proposed) |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|
+| One puzzle/day | ✅ | partial (WOTD only) | ❌ | ✅ | ✅ | ✅ |
+| Multiple-choice quiz format | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| "Guess the era" / region | ❌ | ❌ | ❌ | ❌ | ❌ | ★ gap |
+| Distractor relationships (etymological cousins) | ❌ | partial | ❌ | ❌ | ❌ | ★ gap |
+| Spoiler-safe share grid | ❌ | ❌ | ❌ | partial | ✅ | ★ gap |
+| Streak / lives | ❌ | ❌ | ❌ | partial | ✅ | ✅ |
+| Editorial voice | weak | weak | strong (Harper) | weak | strong | ★ gap to fill |
+| Adult / playful tone | family | neutral | neutral | neutral | family | ★ gap (matches VULGUS family voice) |
+| Archive of past puzzles | free | premium | n/a | free | premium | (TBD) |
+| Subscription | ❌ | ✅ | ✅ | ✅ | ✅ | $3.99/mo recommended |
+
+**The empty quadrants:** era / region guessing as a daily mechanic, an adult-playful tone, and a strong editorial voice are simultaneously absent across every existing competitor. Those are your three differentiators.
+
+### 6c. Pricing landscape — what etymology / word-quiz audiences will pay
+
+| Price point | Example | Notes |
+|---|---|---|
+| **$4.99/mo · $39.99/yr** | NYT Games | The market anchor |
+| **$3.99/mo · $19.99/yr · $59.99 lifetime** | EtymologyExplorer | Undercuts NYT; the lifetime tier matters for the design-led indie crowd |
+| **One-time IAP for ad-free + offline** | Etymonline | Reference-style monetisation; not a quiz model |
+| **Podcast/community sub** | Susie Dent's Purple Plus Club | Audience overlap is direct |
+| **Free + ads only** | Wordle clones | 1-2★ review sink; brand-corrosive |
+
+**Recommended for VULGUS-Etymology:** **$3.99/mo · $24.99/yr · $49.99 lifetime.** Below NYT's anchor, in line with EtymologyExplorer, with a lifetime tier as the indie-respect signal.
+
+### 6d. How mobile ads actually work in this category
+
+Detailed because earlier sections didn't cover ad mechanics in depth, and the "no ads at launch" decision deserves the data behind it.
+
+**Networks:** Google AdMob (~28% of mobile-game ad supply) + AppLovin (~24%) ≈ 52% combined. Integrate one; mediate the other later. Side networks (Unity Ads, ironSource, Vungle) come in via mediation.
+
+**eCPM by format** (US/UK premier markets, 2025–26 data):
+
+| Format | eCPM | Effect on retention |
+|---|---|---|
+| Banner | $0.50–$1.30 | Low harm, low revenue. Mostly noise. |
+| Interstitial (every level) | $3–$10 | **Drives 15–25% of new players to abandon in their first session.** |
+| Interstitial (every 3–4 levels) | $3–$10 | Tolerable; the standard trade-off. |
+| **Rewarded video** (opt-in for hints / extra life) | **$10–$50** | **Increases 30-day retention to 53–68% — 3.5–5× baseline.** The single best tool in the puzzle-game ad design kit. |
+| Offerwalls | Highest | Niche; suspicious users; not a fit for an editorial brand. |
+
+**The playbook the data points at — for v1.1, not launch:**
+
+1. **Never interstitial mid-puzzle.** This is the rule the bottom-feeder Wordle clones break and pay for in 1–2★ reviews.
+2. **Heavy rewarded video for hints** — "watch an ad to reveal one wrong distractor" / "watch to see the era". Free-tier playable, doesn't kneecap retention, and rewarded eCPM is 10–50× banner eCPM.
+3. **At most one optional interstitial after the daily play** — between the end-modal and the "see archive" CTA. Tolerable.
+4. **Premium tier removes ads entirely** + unlocks archive + hint-bank. Same shape as NYT Games and EtymologyExplorer; the audience already understands this model.
+
+**Why "no ads at launch" is correct for both VULGUS apps:**
+
+- Banner / interstitial at launch tank retention before any retention exists to lose.
+- Brand-tier word games (NYT, Knotwords, Puzzmo) all keep their core ads-free.
+- Rewarded video has no purchase at launch because there's no archive / hint-bank to gate behind it. Add when those exist (v1.1+).
+
+### 6e. Positioning — the white space
+
+Two axes that matter: **Tone** (family-neutral ↔ playful-adult) and **Engagement model** (reference ↔ daily ritual).
+
+```
+                Daily ritual
+                     |
+        Word of      |  NYT Games
+        the Day      |  (Wordle / Connections)
+                     |
+   Orijinz Daily ---- *  ←  empty quadrant — VULGUS-Etymology lives here
+                     |
+   ──────────────────+──────────────────  Tone
+        Family       |       Playful-adult
+                     |
+   EtymologyExplorer |  (Susie Dent's swearing
+   Etymonline        |   guides — content, not app)
+                     |
+                Reference / exploration
+```
+
+**The upper-right quadrant — daily ritual + playful-adult tone — is empty.** This is the same positioning Section 5 identified for VULGUS-Connections, which strengthens the family-brand argument: both apps share the defensible POV.
+
+### 6f. Concrete recommendations for VULGUS-Etymology
+
+- **Differentiate on era / region guessing**, not just "guess the word from the origin" (which Orijinz already does well). The "this entered English in: 1300s · 1500s · 1700s · 1900s" mechanic is unclaimed.
+- **Distractor relationships matter.** Wrong answers should be etymological cousins, not random words — that's the equivalent of the "interesting wrong groupings" insight Connections gets right.
+- **Carry the Bauhaus visual identity over from VULGUS-Connections.** Every existing etymology app is generic-looking. Visual distinction at thumbnail size is half the marketing.
+- **Name a single editor.** Susie Dent's brand exists because she has a face. Etymonline has Douglas Harper's name on the masthead. NYT Games doesn't — but they're NYT. You're not, so you need a face.
+- **Free daily forever; archive + hints + ad-free behind a $3.99/mo · $24.99/yr · $49.99 lifetime paywall.**
+- **Partnership long-shot worth pursuing:** Etymonline (Douglas Harper, solo operation) for either licensing the data formally or co-branding the daily quiz. Lower probability than the Hearst/Puzzmo angle but the audience overlap is exact.
+
+### What to *not* copy from etymology competitors
+
+- Don't copy Etymonline's UX. It's a reference app — ledger-like, dense, optimised for lookups. The opposite of a 90-second daily ritual.
+- Don't ship without distractor relationships — multiple-choice with random distractors is what makes generic vocab apps feel disposable.
+- Don't go family-neutral to widen the audience. The competitor analysis already establishes the playful-adult tone as the defensible position. Section 5's "POV the NYT structurally can't ship" applies to both VULGUS apps.
+
+---
+
 ## Sources
 
 - [Beebom — 8 Best Games Like NYT Connections](https://beebom.com/puzzle/games-like-nyt-connections/)
@@ -162,3 +289,24 @@ The non-NYT winners share a small set of traits. None of them is "better mechani
 - [Udonis — Word Game Marketing & UA](https://www.blog.udonis.co/mobile-marketing/mobile-games/word-game-marketing)
 - [AppFollow — Mobile game UA with TikTok ads](https://appfollow.io/blog/exploring-mobile-game-user-acquisition-with-tiktok-ads)
 - [Comprehensive list of Wordle variants (GitHub gist)](https://gist.github.com/maxspero/0a2f536b9561d829caf6bd994a34193d)
+
+### Sources added 2026-04-26 for Section 6 (etymology niche + ads playbook)
+
+- [Orijinz Daily — Apple App Store](https://apps.apple.com/us/app/orijinz-daily/id6477123796)
+- [Orijinz Daily — Google Play](https://play.google.com/store/apps/details?id=com.app.entspirellc&hl=en_US)
+- [Orijinz product page (Entspire)](https://www.entspire.com/orijinz-words-phrases)
+- [EtymologyExplorer — Apple App Store](https://apps.apple.com/us/app/etymologyexplorer/id1189423897)
+- [Etymonline app — Google Play](https://play.google.com/store/apps/details?id=com.etymonline.app&hl=en_US)
+- [Etymonline app — Apple App Store](https://apps.apple.com/us/app/etymonline-english-dictionary/id813629612)
+- [Word of the Day · Vocabulary — Apple App Store](https://apps.apple.com/us/app/word-of-the-day-vocabulary/id987136347)
+- [NYT Games — Apple App Store](https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751)
+- [NYT Games subscription pricing context](https://www.subscriptioninsider.com/type-of-subscription-business/subscription-apps/wordle-now-available-in-the-new-york-times-crossword-app)
+- [Susie Dent — Wikipedia](https://en.wikipedia.org/wiki/Susie_Dent)
+- [Tenjin — Ad Monetization in Mobile Games Benchmark 2025](https://tenjin.com/blog/ad-mon-gaming-2025/)
+- [MAF.ad — Mobile Ads eCPM data](https://maf.ad/en/blog/mobile-ads-ecpm/)
+- [Udonis — eCPMs for Rewarded / Interstitial / Banner](https://www.blog.udonis.co/mobile-marketing/mobile-apps/ecpms)
+- [Mistplay — Rewarded ads & player retention](https://business.mistplay.com/resources/rewarded-advertising-player-retention)
+- [iion — Interstitial vs Rewarded for gaming apps](https://www.iion.io/blog/interstitial-ads-vs-rewarded-ads-which-one-performs-better-for-gaming-apps)
+- [Adjust — 10 best practices for rewarded video](https://www.adjust.com/blog/understanding-rewarded-video-ads/)
+- [AppLixir — Rewarded vs interstitial differences](https://www.applixir.com/blog/rewarded-video-ads-vs-interstitial-ads-the-difference-explained/)
+- [MonetizeMore — App ad revenue benchmarks 2026](https://www.monetizemore.com/blog/how-much-ad-revenue-can-apps-generate/)
